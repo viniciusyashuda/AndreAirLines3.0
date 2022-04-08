@@ -23,7 +23,8 @@ namespace RobotSQL
                 Console.WriteLine("|2| Print all");
                 Console.WriteLine("|3| Print an object by it's id");
                 Console.WriteLine("|4| Print an object by it's code");
-                Console.WriteLine("|5| Leave\n");
+                Console.WriteLine("|5| Compare performance Entity Framework vs Dapper");
+                Console.WriteLine("|6| Leave\n");
                 Console.Write("Option: ");
                 option = Console.ReadLine();
 
@@ -93,7 +94,21 @@ namespace RobotSQL
 
                         break;
 
+
                     case "5":
+
+                        Console.Clear();
+
+                        new Dapper_vs_EntityFramework().PerformanceTest();
+
+                        Console.WriteLine("Press |SPACE| to continue");
+                        Console.ReadKey();
+
+                        Console.Clear();
+
+                        break;
+
+                    case "6":
                         flag = false;
                         break;
 
