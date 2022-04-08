@@ -1,0 +1,1761 @@
+City;Country ;Code;Continent
+Praia;Cape Verde;RAI;Africa
+Cape Town;South Africa;CPT;Africa
+Johannesburg - Johannesburg Int'l;South Africa;JNB;Africa
+Algiers;Algeria;ALG;Africa
+Annaba;Algeria;AAE;Africa
+Constantine;Algeria;CZL;Africa
+Oran (Ouahran);Algeria;ORN;Africa
+Bengueka;Angola;BUG;Africa
+Cabinda;Angola;CAB;Africa
+Luanda - 4 de Fevereiro;Angola;LAD;Africa
+Cotonou;Benin;COO;Africa
+Francistown;Botswana;FRW;Africa
+Gaborone;Botswana;GBE;Africa
+Maun;Botswana;MUB;Africa
+Selibi Phikwe;Botswana;PKW;Africa
+Bobo/Dioulasso;Burkina Faso;BOY;Africa
+Ouagadougou;Burkina Faso;OUA;Africa
+Sal;Cape Verde;SID;Africa
+Bambari;Central African Republic;BBY;Africa
+Bangassou;Central African Republic;BGU;Africa
+Bangui;Central African Republic;BGF;Africa
+Berberati;Central African Republic;BBT;Africa
+Biraro;Central African Republic;IRO;Africa
+Bria;Central African Republic;BIV;Africa
+Carnot;Central African Republic;CRF;Africa
+Ouadda;Central African Republic;ODA;Africa
+Abeche;Chad;AEH;Africa
+Moundou;Chad;MQQ;Africa
+N'Djamena;Chad;NDJ;Africa
+Anjouan;Comoros (Comores);AJN;Africa
+Moroni - Prince Said Ibrahim;Comoros (Comores);HAH;Africa
+Moroni - Iconi;Comoros (Comores);YVA;Africa
+Brazzaville;Congo;BZV;Africa
+Pointe Noire;Congo;PNR;Africa
+Kinshasa - N'Djili;Congo (Zaire);FIH;Africa
+Lisala;Congo, Democratic Republic of The;LIQ;Africa
+Yamoussoukro;Cìte d'Ivoire (Ivory Coast);ASK;Africa
+Djibouti;Djibouti;JIB;Africa
+Abu Rudeis;Egypt;AUE;Africa
+Abu Simbel;Egypt;ABS;Africa
+Al Arish;Egypt;AAC;Africa
+Al Arish;Egypt;AAC;Africa
+Alexandria, El Nhouza Airport;Egypt;ALY;Africa
+Assiut;Egypt;ATZ;Africa
+Aswan, Daraw Airport;Egypt;ASW;Africa
+Borg El Arab Airport;Egypt;HBH;Africa
+Cairo Int'l;Egypt;CAI;Africa
+El Minya;Egypt;EMY;Africa
+Hurghada Int'l;Egypt;HRG;Africa
+Kharga - New Valley;Egypt;UVL;Africa
+Luxor;Egypt;LXR;Africa
+Marsa Matrah (Marsa Matruh);Egypt;MUH;Africa
+New Valley - Kharga;Egypt;UVL;Africa
+Port Said;Egypt;PSD;Africa
+Santa Katarina - Mount Sinai;Egypt;SKV;Africa
+Sharm El Sheikh;Egypt;SSH;Africa
+Siwa;Egypt;SEW;Africa
+Malabo;Equatorial Guinea;SSG;Africa
+Addis Ababa;Ethiopia;ADD;Africa
+Lambarene;Gabon;LBQ;Africa
+Libreville;Gabon;LBV;Africa
+Moanda;Gabon;MFF;Africa
+Mouila;Gabon;MJL;Africa
+Mvengue;Gabon;MVB;Africa
+Port Gentil;Gabon;POG;Africa
+Oyem;Gabon/Loyautte;UVE;Africa
+Banjul;Gambia;BJL;Africa
+Accra;Ghana;ACC;Africa
+Abidjan;Ivory Coast;ABJ;Africa
+Bouake;Ivory Coast;BYK;Africa
+Daloa;Ivory Coast;DJO;Africa
+Korhogo;Ivory Coast;HGO;Africa
+Man;Ivory Coast;MJC;Africa
+San Pedro;Ivory Coast;SPY;Africa
+Sassandra;Ivory Coast;ZSS;Africa
+Malindi;Kenya;MYD;Africa
+Mombasa - Moi International;Kenya;MBA;Africa
+Nairobi;Kenya;NBO;Africa
+Maseru - Moshoeshoe Int'l;Lesotho;MSU;Africa
+Monrovia;Liberia;MLW;Africa
+Monrovia - Roberts Int'l;Liberia;ROB;Africa
+Bengasi;Libya;BEN;Africa
+Sehba;Libya;SEB;Africa
+Tripoli - Tripoli Int'l;Libya;TIP;Africa
+Antananarivo (Tanannarive);Madagascar;TNR;Africa
+Majunga;Madagascar;MJN;Africa
+Blantyre;Malawi;BLZ;Africa
+Lilongwe - Lilongwe International;Malawi;LLW;Africa
+Bamako;Mali;BKO;Africa
+Nouadhibou;Mauritania;NDB;Africa
+Nouakchott;Mauritania;NKC;Africa
+Zouerate;Mauritania;OUZ;Africa
+Dzaoudzi;Mayotte;DZA;Africa
+Agadir;Morocco;AGA;Africa
+Al Hoceima;Morocco;AHU;Africa
+Casablanca;Morocco;CAS;Africa
+Casablanca, Mohamed V;Morocco;CMN;Africa
+Fes;Morocco;FEZ;Africa
+Marrakech - Menara;Morocco;RAK;Africa
+Ouarzazate;Morocco;OZZ;Africa
+Oujda;Morocco;OUD;Africa
+Rabat - Sale;Morocco;RBA;Africa
+Tanger - Boukhalef;Morocco;TNG;Africa
+Beira;Mozambique;BEW;Africa
+Maputo - Maputo International;Mozambique;MPM;Africa
+Katima Mulilo/Mpacha;Namibia;MPA;Africa
+Keetmanshoop;Namibia;KMP;Africa
+Luederitz;Namibia;LUD;Africa
+Mokuti;Namibia;OKU;Africa
+Ondangwa;Namibia;OND;Africa
+Oranjemund;Namibia;OMD;Africa
+Rundu;Namibia;NDU;Africa
+Swakopmund;Namibia;SWP;Africa
+Tsumeb;Namibia;TSB;Africa
+Windhoek - Eros;Namibia;ERS;Africa
+Windhoek - Hosea Kutako Int'l;Namibia;WDH;Africa
+Agades;Niger;AJY;Africa
+Arlit;Niger;RLT;Africa
+Maradi;Niger;MFQ;Africa
+Niamey;Niger;NIM;Africa
+Zinder;Niger;ZND;Africa
+Abuja International;Nigeria;ABV;Africa
+Kano;Nigeria;KAN;Africa
+Lagos - Murtala Muhammed;Nigeria;LOS;Africa
+Port Harcourt;Nigeria;PHC;Africa
+Saint Denis de la Reunion;Reunion;RUN;Africa
+Kigali - Gregoire Kayibanda;Rwanda;KGL;Africa
+Sao Tome;Sao Tome & Principe;TMS;Africa
+Dakar;Senegal;DKR;Africa
+Mahe - Seychelles Int'l;Seychelles;SEZ;Africa
+Freetown;Sierra Leone;FNA;Africa
+Mogadischu;Somalia;MGQ;Africa
+Aggeneys;South Africa;AGZ;Africa
+Alexander Bay;South Africa;ALJ;Africa
+Alldays;South Africa;ADY;Africa
+Bloemfontein;South Africa;BFN;Africa
+Durban;South Africa;DUR;Africa
+East London;South Africa;ELS;Africa
+Ellisras;South Africa;ELL;Africa
+George;South Africa;GRJ;Africa
+Kimberley;South Africa;KIM;Africa
+Kleinsee;South Africa;KLZ;Africa
+Lanseria;South Africa;HLA;Africa
+Lusisiki;South Africa;LUJ;Africa
+Margate;South Africa;MGH;Africa
+Messina;South Africa;MEZ;Africa
+Mkambati;South Africa;MBM;Africa
+Mzamba;South Africa;MZF;Africa
+Nelspruit;South Africa;NLP;Africa
+Newcastle;South Africa;NCS;Africa
+Oudtshoorn;South Africa;OUH;Africa
+Phalaborwa;South Africa;PHW;Africa
+Pietermaritzburg;South Africa;PZB;Africa
+Pietersburg;South Africa;PTG;Africa
+Pilanesberg/Sun City;South Africa;NTY;Africa
+Plettenberg Bay;South Africa;PBZ;Africa
+Port Elizabeth;South Africa;PLZ;Africa
+Pretoria - Wonderboom Apt.;South Africa;PRY;Africa
+Richards Bay;South Africa;RCB;Africa
+Sishen;South Africa;SIS;Africa
+Skukuza;South Africa;SZK;Africa
+Springbok;South Africa;SBU;Africa
+Thaba'Nchu;South Africa;TCU;Africa
+Ulundi;South Africa;ULD;Africa
+Umtata;South Africa;UTT;Africa
+Upington;South Africa;UTN;Africa
+Vryheid;South Africa;VYD;Africa
+Walvis Bay;South Africa;WVB;Africa
+Welkom;South Africa;WEL;Africa
+Kassala;Sudan;KSL;Africa
+Khartoum;Sudan;KRT;Africa
+Paramaribo - Zanderij Int'l;Suriname;PBM;Africa
+Manzini - Matsapha Int'l;Swaziland;MTS;Africa
+Arusha;Tanzania;ARK;Africa
+Dar es Salam (Daressalam);Tanzania;DAR;Africa
+Kilimadjaro;Tanzania;JRO;Africa
+Djerba;Tunisia;DJE;Africa
+Monastir;Tunisia;MIR;Africa
+Sfax;Tunisia;SFA;Africa
+Tunis - Carthage;Tunisia;TUN;Africa
+Entebbe;Uganda;EBB;Africa
+Gulu;Uganda;ULU;Africa
+Kisangani;Zaire;FKI;Africa
+Lumbumbashi;Zaire;FBM;Africa
+Chipata;Zambia;CIP;Africa
+Kitwe;Zambia;KIW;Africa
+Lusaka;Zambia;LUN;Africa
+Mfuwe;Zambia;MFU;Africa
+N'Dola;Zambia;NLA;Africa
+Buffalo Range;Zimbabwe;BFO;Africa
+Bulawayo;Zimbabwe;BUQ;Africa
+Gweru;Zimbabwe;GWE;Africa
+Harare;Zimbabwe;HRE;Africa
+Hwange National Park;Zimbabwe;HWN;Africa
+Masvingo;Zimbabwe;MVZ;Africa
+Salisbury;Zimbabwe;SAY;Africa
+Victoria Falls;Zimbabwe;VFA;Africa
+Sapporo;Hokkaido, Japan;SPK;Asia
+Sapporo - Okadama;Hokkaido, Japan;OKD;Asia
+Hong Kong - Int'l Airport (HKIA);Hong Kong;HKG;Asia
+Kobe;Japan;UKB;Asia
+Kyoto;Japan;UKY;Asia
+Nagoya - Komaki AFB;Japan;NGO;Asia
+Tokyo;Japan;TYO;Asia
+Tokyo - Haneda;Japan;HND;Asia
+Tokyo - Narita;Japan;NRT;Asia
+Male - International;Maledives;MLE;Asia
+Kathmandu - Tribhuvan;Nepal;KTM;Asia
+Seoul - Incheon Int'l Airport;South Korea;ICN;Asia
+Seoul - Kimpo;South Korea;SEL;Asia
+Colombo;Sri Lanka;CMB;Asia
+Barisal;Bangladesh;BZL;Asia
+Chittagong;Bangladesh;CGP;Asia
+Dhaka;Bangladesh;DAC;Asia
+Sylhet;Bangladesh;ZYL;Asia
+Paro;Bhutan;PBH;Asia
+Beijing;China;PEK;Asia
+Beijing - Nanyuan Airport;China;NAY;Asia
+Shanghai - Hongqiao;China;SHA;Asia
+Shanghai - Pu Dong;China;PVG;Asia
+Tianjin;China;TSN;Asia
+Xiamen;Fujian, China;XMN;Asia
+Dongguan;Guangdong, China;DGM;Asia
+Guangzhou (Canton) - Baiyun (White Cloud);Guangdong, China;CAN;Asia
+Shenzhen;Guangdong, China;SZX;Asia
+Nanning;Guangxi, China;NNG;Asia
+Harbin (Haerbin);Heilongjiang, China;HRB;Asia
+Hong Kong - Chek Lap Kok;Hong Kong;ZJK;Asia
+Wuhan;Hubei, China;WUH;Asia
+Ahmedabad;India;AMD;Asia
+Amritsar;India;ATQ;Asia
+Anand;India;QNB;Asia
+Bagdogra;India;IXB;Asia
+Bangalore;India;BLR;Asia
+Baronda;India;BDQ;Asia
+Belgaum;India;IXG;Asia
+Bhopal;India;BHO;Asia
+Bhubaneswar;India;BBI;Asia
+Bombay;India;BOM;Asia
+Calcutta (Kolkata) - Netaji Subhas Chandra;India;CCU;Asia
+Calicut;India;CCJ;Asia
+Chandigarh;India;IXC;Asia
+Chennai (Madras);India;MAA;Asia
+Cochin;India;COK;Asia
+Coimbatore;India;CJB;Asia
+Delhi, Indira Gandhi;India;DEL;Asia
+Goa;India;GOI;Asia
+Guwahati;India;GAU;Asia
+Hyderabad - Begumpet;India;HYD;Asia
+Jaipur - Sanganeer;India;JAI;Asia
+Jalandhar;India;JLR;Asia
+Jamshedpur - Sonari;India;IXW;Asia
+Kanpur;India;QJU;Asia
+Kolkata (Calcutta) - Netaji Subhas Chandra;India;CCU;Asia
+Lucknow;India;LKO;Asia
+Madras (Chennai);India;MAA;Asia
+Nagpur;India;NAG;Asia
+Patna;India;PAT;Asia
+Pune;India;PNQ;Asia
+Rajkot;India;RAJ;Asia
+Ranchi;India;IXR;Asia
+Srinagar;India;SXR;Asia
+Surat;India;STV;Asia
+Thiruvananthapuram;India;TRV;Asia
+Tiruchirapally;India;TRZ;Asia
+Varanasi;India;VNS;Asia
+Akita;Japan;AXT;Asia
+Amami;Japan;ASJ;Asia
+Aomori;Japan;AOJ;Asia
+Komatsu;Japan;KMQ;Asia
+Chiba City;Japan;QCB;Asia
+Chitose;Japan;CTS;Asia
+Fukuoka;Japan;FUK;Asia
+Fukushima-shi, Fukushima Airport;Japan;FKS;Asia
+Hachijo Jima;Japan;HAC;Asia
+Hakodate;Japan;HKD;Asia
+Hiroshima International;Japan;HIJ;Asia
+Ishigaki;Japan;LSG;Asia
+Kagoshima;Japan;KOJ;Asia
+Kochi;Japan;KCZ;Asia
+Kumamoto;Japan;KMJ;Asia
+Kushiro;Japan;KUH;Asia
+Matsumoto, Nagano;Japan;MMJ;Asia
+Matsuyama;Japan;MYJ;Asia
+Miyako Jima (Ryuku Islands) - Hirara;Japan;MMY;Asia
+Morioka, Hanamaki;Japan;HNA;Asia
+Miyazaki;Japan;KMI;Asia
+Nagasaki;Japan;NGS;Asia
+Niigata;Japan;KIJ;Asia
+Oita;Japan;OIT;Asia
+Okayama;Japan;OKJ;Asia
+Okinawa, Ryukyo Island - Naha;Japan;OKA;Asia
+Osaka, Metropolitan Area;Japan;OSA;Asia
+Osaka - Itami;Japan;ITM;Asia
+Osaka - Kansai Int'l Airport;Japan;KIX;Asia
+Sado Shima;Japan;SDS;Asia
+Sapporo - Shin-Chitose Airport;Japan;CTS;Asia
+Sendai;Japan;SDJ;Asia
+Takamatsu;Japan;TAK;Asia
+Tokushima;Japan;TKS;Asia
+Toyama;Japan;TOY;Asia
+Yamagata, Junmachi;Japan;GAJ;Asia
+Yokohama;Japan;YOK;Asia
+Changchun;Jilin, China;CGQ;Asia
+Aktyubinsk;Kazakhstan;ADX;Asia
+Alma Ata;Kazakhstan;ALA;Asia
+Astana;Kazakstan;TSE;Asia
+Incheon, Incheon Int'l Airport;Korea South;ICN;Asia
+Dalian;Liaoning, China;DLC;Asia
+Shenyang;Liaoning, China;SHE;Asia
+Macau;Macau, China SAR;MFM;Asia
+Mauritius - S.Seewoosagur Ram Int'l;Mauritius;MRU;Asia
+Rodrigues Island;Mauritius;RRG;Asia
+Ulaanbaatar - Buyant Uhaa;Mongolia;ULN;Asia
+Xi'an - Xianyang;Shaanxi, China;XIY;Asia
+Jinan;Shandong, China;TNA;Asia
+Qingdao;Shandong, China;TAO;Asia
+Taiyuan;Shanxi, China;TYN;Asia
+Chengdu;Sichuan, China;CTU;Asia
+Chongqing;Sichuan, China;CKG;Asia
+Singapore - Paya Lebar;Singapore;QPG;Asia
+Singapore - Changi;Singapore;SIN;Asia
+Pu San (Pusan) - Kimhae;South Korea;PUS;Asia
+Dushanbe (Duschanbe);Tadschikistan;DYU;Asia
+Kaohsiung Int'l;Taiwan;KHH;Asia
+Makung;Taiwan;MZG;Asia
+Taipei - Chiang Kai Shek;Taiwan;TPE;Asia
+Taipei - Sung Shan;Taiwan;TAY;Asia
+Samarkand;Uzbekistan;SKD;Asia
+Tashkent - Vostochny;Uzbekistan;TAS;Asia
+Termez (Termes);Uzbekistan;TMZ;Asia
+Urumqi;Xinjiang, China;URC;Asia
+Hangchow (Hangzhou);Zhejiang, China;HGH;Asia
+Pointe a Pitre;Guadeloupe;PTP;Caribbean
+Bonaire;Netherlands Antilles;BON;Caribbean
+Curacao;Netherlands Antilles;CUR;Caribbean
+St. Marteen;Netherlands Antilles;SXM;Caribbean
+Nevis;Nevis;NEV;Caribbean
+St. Kitts;St. Kitts And Nevis;SKB;Caribbean
+St. Lucia Hewanorra;St. Lucia;UVF;Caribbean
+St. Lucia Vigle;St. Lucia;SLU;Caribbean
+St. Martin;St. Martin;SFG;Caribbean
+St. Vincent;St. Vincent;SVD;Caribbean
+Havana - JosÇ Mart° Int'l;Cuba;HAV;Caribbean
+Holguin;Cuba;HOG;Caribbean
+Santiago - Antonio Maceo Airport;Cuba;SCU;Caribbean
+Varadero;Cuba;VRA;Caribbean
+Casa de Campo/La Romana;Dominican Republic;LRM;Caribbean
+Puerto Plata;Dominican Republic;POP;Caribbean
+Punta Cana;Dominican Republic;PUJ;Caribbean
+Santo Domingo;Dominican Republic;SDQ;Caribbean
+Port au Prince;Haiti;PAP;Caribbean
+Kingston - Norman Manley;Jamaica;KIN;Caribbean
+Montenego Bay;Jamaica;MBJ;Caribbean
+Fort de France;Martinique;FDF;Caribbean
+Aguadilla;Puerto Rico;BQN;Caribbean
+Mayaguez;Puerto Rico;MAZ;Caribbean
+Ponce;Puerto Rico;PSE;Caribbean
+San Juan Perto;Rico;SJU;Caribbean
+Tobago;Tobago;TAB;Caribbean
+Port of Spain;Trinidad;POS;Caribbean
+St. Croix;Virgin Islands;STX;Caribbean
+St. Thomas;Virgin Islands;STT;Caribbean
+Tortola;Virgin Islands;EIS;Caribbean
+Virgin Gorda;Virgin Islands;VIJ;Caribbean
+Beef Island;Virgin Islands, British;EIS;Caribbean
+Freeport;Bahamas;FPO;Carribbean
+Nassau;Bahamas;NAS;Carribbean
+Grand Cayman;Cayman Islands;GCM;Carribbean
+Anguilla;Anguilla;AXA;Carribbean
+Antigua;Antigua;ANU;Carribbean
+Aruba;Aruba;AUA;Carribbean
+Chub Cay;Bahamas;CCZ;Carribbean
+Govenors Harbour;Bahamas;GHB;Carribbean
+Grand Bahama;Bahamas;GBI;Carribbean
+Marsh Harbour;Bahamas;MHH;Carribbean
+North Eleuthera;Bahamas;ELH;Carribbean
+Rock Sound;Bahamas;RSD;Carribbean
+San Salvador;Bahamas;ZSA;Carribbean
+Treasure Cay;Bahamas;TCB;Carribbean
+Bridgetown, Grantley Adams Int'l;Barbados;BGI;Carribbean
+Bermuda;Bermuda;BDA;Carribbean
+Panama City - Tocumen International;Panama;PTY;Central America
+San Jose;Costa Rica;SJO;Central America
+San Salvador;El Salvador;SAL;Central America
+Roatan;Honduras;RTB;Central America
+San Pedro Sula;Honduras;SAP;Central America
+Santa Rosa Copan;Honduras;SDH;Central America
+Tegucigalpa;Honduras;TGU;Central America
+Belize City;Belize;BZE;Central America
+Guatemala City;Guatemala;GUA;Central America
+Managua - Augusto C Sandino;Nicaragua;MGA;Central Americal
+Sarajevo;Bosnia and Herzegovina;SJJ;Eastern Europe
+Sofia - Vrazhdebna;Bulgaria;SOF;Eastern Europe
+Nadi;Fiji;NAN;South Pacific
+Suva/Nausori;Fiji;SUV;South Pacific
+Nausori;Fiji/Suva;SUV;South Pacific
+Budapest, Ferihegy;Hungary;BUD;Eastern Europe
+Skopje;Macedonia;SKP;Eastern Europe
+Bucharest;Romania;BUH;Eastern Europe
+Bucharest, Otopeni;Romania;OTP;Eastern Europe
+Eriwan (Yerevan, Jerevan);Armenia;EVN;Eastern Europe
+Baku;Azerbaijan;BAK;Eastern Europe
+Minsk, International;Belarus;MSQ;Eastern Europe
+Mostar;Bosnia and Herzegovina;OMO;Eastern Europe
+Bourgas/Burgas;Bulgaria;BOJ;Eastern Europe
+Gorna;Bulgaria;GOZ;Eastern Europe
+Ruse;Bulgaria;ROU;Eastern Europe
+Silistra;Bulgaria;SLS;Eastern Europe
+Targovishte;Bulgaria;TGV;Eastern Europe
+Varna;Bulgaria;VAR;Eastern Europe
+Vidin;Bulgaria;VID;Eastern Europe
+Dubrovnik;Croatia (Hrvatska);DBV;Eastern Europe
+(Mali) Losinj - Losinj Arpt;Croatia (Hrvatska);LSZ;Eastern Europe
+Osijek;Croatia (Hrvatska);OSI;Eastern Europe
+Pula;Croatia (Hrvatska);PUY;Eastern Europe
+Rijeka;Croatia (Hrvatska);RJK;Eastern Europe
+Split;Croatia (Hrvatska);SPU;Eastern Europe
+Zadar;Croatia (Hrvatska);ZAD;Eastern Europe
+Zagreb - Pleso;Croatia (Hrvatska);ZAG;Eastern Europe
+Tallinn - Pirita Harbour;Estonia;QUF;Eastern Europe
+Tallinn - Ulemiste;Estonia;TLL;Eastern Europe
+Tbilisi - Novo Alexeyevka;Georgia;TBS;Eastern Europe
+Riga;Latvia;RIX;Eastern Europe
+Wilna (Vilnius);Lithuania;VNO;Eastern Europe
+Ohrid;Macedonia;OHD;Eastern Europe
+Constanza;Romania;CND;Eastern Europe
+Adler/Sochi;Russia;AER;Eastern Europe
+Chabarovsk (Khabarovsk);Russia;KHV;Eastern Europe
+Chita (Tschita);Russia;HTA;Eastern Europe
+Irkutsk;Russia;IKT;Eastern Europe
+Kazan (Ka San);Russia;KZN;Eastern Europe
+Mineralnye Vody;Russia;MRV;Eastern Europe
+Moscow - Metropolitan Area;Russia;MOW;Eastern Europe
+Moscow - Domodedovo;Russia;DME;Eastern Europe
+Moscow - Sheremetyevo;Russia;SVO;Eastern Europe
+Moscow - Vnukovo;Russia;VKO;Eastern Europe
+Murmansk;Russia;MMK;Eastern Europe
+Novosibirsk - Tolmachevo;Russia;OVB;Eastern Europe
+St. Petersburg (Leningrad) - Pulkovo;Russia;LED;Eastern Europe
+Ulan-Ude;Russia;UUD;Eastern Europe
+Velikiye Luki (Welikije Luki);Russia;VLU;Eastern Europe
+Arkhangelsk;Russian Federation;ARH;Eastern Europe
+Yakutsk;Russian Federation;YKS;Eastern Europe
+Bratislava;Slovakia;BTS;Eastern Europe
+Ljubljana - Brnik;Slovenia;LJU;Eastern Europe
+Maribor;Slovenia;MBX;Eastern Europe
+Kiev - Borispol;Ukraine;KBP;Eastern Europe
+Kiev - Zhulhany;Ukraine;IEV;Eastern Europe
+Lvov (Lwow, Lemberg);Ukraine;LWO;Eastern Europe
+Nikolaev;Ukraine;NLV;Eastern Europe
+Odessa;Ukraine;ODS;Eastern Europe
+Simferopol;Ukraine;SIP;Eastern Europe
+Belgrad (Beograd);Yugoslavia;BEG;Eastern Europe
+Nis;Yugoslavia;INI;Eastern Europe
+Novi Sad;Yugoslavia;QND;Eastern Europe
+Podgorica;Yugoslavia;TGD;Eastern Europe
+Pristina;Yugoslavia;PRN;Eastern Europe
+Tivat;Yugoslavia;TIV;Eastern Europe
+Tirana - Rinas;Albania;TIA;Eastern Europe
+Innsbruck - Kranebitten;Austria;INN;Europe
+Salzburg - W.A. Mozart;Austria;SZG;Europe
+Wien (Vienna) - Vienna Int'l;Austria;VIE;Europe
+Copenhagen;Denmark;CPH;Europe
+Helsinki - Vantaa;Finland;HEL;Europe
+Berlin;Germany;BER;Europe
+Berlin, Schoenefeld;Germany;SXF;Europe
+Berlin, Tegel;Germany;TXL;Europe
+Dresden;Germany;DRS;Europe
+Hamburg - Fuhlsbuettel;Germany;HAM;Europe
+Athens;Greece;ATH;Europe
+Athens, Hellinikon Airport;Greece;HEW;Europe
+Corfu;Greece;CFU;Europe
+Kos;Greece;KGS;Europe
+Mykonos;Greece;JMK;Europe
+Mytilene (Lesbos);Greece;MJT;Europe
+Rhodos;Greece;RHO;Europe
+Thessaloniki - Makedonia Apt.;Greece;SKG;Europe
+Ibiza;Ibiza/Spain;IBZ;Europe
+Cork;Ireland;ORK;Europe
+Dublin;Ireland;DUB;Europe
+Galway;Ireland;GWY;Europe
+Kerry County;Ireland;KIR;Europe
+Knock;Ireland;NOC;Europe
+Shannon (Limerick);Ireland;SNN;Europe
+Cagliari;Italy;CAG;Europe
+Luga;Malta;MLA;Europe
+Bergen;Norway;BGO;Europe
+Oslo;Norway;OSL;Europe
+Oslo - Sandefjord;Norway;TRF;Europe
+Krakau;Poland;KRK;Europe
+Warsaw;Poland;WAW;Europe
+Lisbon - Lisboa;Portugal;LIS;Europe
+Ponta Delgada;Portugal;PDL;Europe
+Palma de Mallorca;Spain;PMI;Europe
+Sevilla;Spain;SVQ;Europe
+Valencia;Spain;VLC;Europe
+Goteborg;Sweden;GOT;Europe
+Stockholm Metropolitan Area;Sweden;STO;Europe
+Stockholm - Arlanda;Sweden;ARN;Europe
+Stockholm - Bromma;Sweden;BMA;Europe
+Belfast - Harbour;United Kingdom;BHD;Europe
+Belfast International;United Kingdom;BFS;Europe
+Glasgow, Prestwick;United Kingdom;PIK;Europe
+Glasgow;United Kingdom;GLA;Europe
+Inverness;United Kingdom;INV;Europe
+Andorra La Vella H/P;Andorra;ALV;Europe
+Graz;Austria;GRZ;Europe
+Klagenfurt;Austria;KLU;Europe
+Linz - Hoersching;Austria;LNZ;Europe
+Antwerp;Belgium;ANR;Europe
+Brussels;Belgium;BRU;Europe
+Liege;Belgium;LGG;Europe
+Akrotiri - RAF;Cyprus;AKT;Europe
+Larnaca;Cyprus;LCA;Europe
+Limassol;Cyprus;QLI;Europe
+Nicosia;Cyprus;NIC;Europe
+Paphos;Cyprus;PFO;Europe
+Prague - Ruzyne;Czech Republic;PRG;Europe
+Aarhus;Denmark;AAR;Europe
+Alborg;Denmark;AAL;Europe
+Billund;Denmark;BLL;Europe
+Esbjerg;Denmark;EBJ;Europe
+Faroer;Denmark;FAE;Europe
+Karup;Denmark;KRP;Europe
+Odense;Denmark;ODE;Europe
+Roenne;Denmark;RNN;Europe
+Skrydstrup;Denmark;SKS;Europe
+Soenderborg;Denmark;SGD;Europe
+Thisted;Denmark;TED;Europe
+Enontekioe;Finland;ENF;Europe
+Ivalo;Finland;IVL;Europe
+Joensuu;Finland;JOE;Europe
+Jyvaeskylae;Finland;JYV;Europe
+Kajaani;Finland;KAJ;Europe
+Kauhajoki;Finland;KHJ;Europe
+Kemi/Tornio;Finland;KEM;Europe
+KittilÑ;Finland;KTT;Europe
+Kokkola/Pietarsaari;Finland;KOK;Europe
+Kuopio;Finland;KUO;Europe
+Kuusamo;Finland;KAO;Europe
+Lappeenranta;Finland;LPP;Europe
+Mariehamn (Maarianhamina);Finland;MHQ;Europe
+Mikkeli;Finland;MIK;Europe
+Oulu;Finland;OUL;Europe
+Pori;Finland;POR;Europe
+Rovaniemi;Finland;RVN;Europe
+Savonlinna;Finland;SVL;Europe
+Seinaejoki;Finland;SJY;Europe
+Sodankylae;Finland;SOT;Europe
+Tampere;Finland;TMP;Europe
+Turku;Finland;TKU;Europe
+Vaasa;Finland;VAA;Europe
+Varkaus;Finland;VRK;Europe
+Ajaccio;France;AJA;Europe
+Albi;France;LBI;Europe
+Annecy;France;NCY;Europe
+Aurillac;France;AUR;Europe
+Bastia;France;BIA;Europe
+Biarritz;France;BIQ;Europe
+Bordeaux;France;BOD;Europe
+Brest;France;BES;Europe
+Calvi;France;CLY;Europe
+Chambery;France;CMF;Europe
+Clermont Ferrand;France;CFE;Europe
+Dinard;France;DNR;Europe
+Figari;France;FSC;Europe
+Frejus;France;FRJ;Europe
+Grenoble;France;GNB;Europe
+La Rochelle;France;LRH;Europe
+Lannion;France;LAI;Europe
+Lille;France;LIL;Europe
+Limoges;France;LIG;Europe
+Lorient;France;LRT;Europe
+Lourdes/Tarbes;France;LDE;Europe
+Lyon;France;LYS;Europe
+Marseille;France;MRS;Europe
+Metz;France;MZM;Europe
+Montpellier - Frejorgues;France;MPL;Europe
+Mulhouse;France;MLH;Europe
+Nancy;France;ENC;Europe
+Nantes;France;NTE;Europe
+Nice - Cote D'Azur;France;NCE;Europe
+Nimes;France;FNI;Europe
+Paris;France;PAR;Europe
+Paris - Charles de Gaulle;France;CDG;Europe
+Paris - Le Bourget;France;LBG;Europe
+Paris - Orly;France;ORY;Europe
+Pau;France;PUF;Europe
+Perpignan;France;PGF;Europe
+Quimper;France;UIP;Europe
+Rennes;France;RNS;Europe
+Roanne;France;RNE;Europe
+Rodez;France;RDZ;Europe
+Saint Brieuc;France;SBK;Europe
+St. Etienne;France;EBU;Europe
+Strassburg;France;SXB;Europe
+Toulouse - Blagnac;France;TLS;Europe
+Augsburg;Germany;AGB;Europe
+Bayreuth;Germany;BYU;Europe
+Bremen;Germany;BRE;Europe
+Cologne (Koeln)/Bonn;Germany;CGN;Europe
+Dortmund;Germany;DTM;Europe
+Duesseldorf;Germany;DUS;Europe
+Erfurt;Germany;ERF;Europe
+Frankfurt/Main Int'l Airport;Germany;FRA;Europe
+Frankfurt/Hahn;Germany;HNN;Europe
+Friedrichshafen;Germany;FDH;Europe
+Hannover;Germany;HAJ;Europe
+Hof;Germany;HOQ;Europe
+Karlsruhe-Baden - Soellingen;Germany;FKB;Europe
+Kiel - Holtenau;Germany;KEL;Europe
+Kîln, Kîln/Bonn;Germany;CGN;Europe
+Leipzig;Germany;LEJ;Europe
+Muenchen (Munich) - Franz Josef Strauss;Germany;MUC;Europe
+Muenster/Osnabrueck;Germany;FMO;Europe
+Muenster/Osnabrueck;Germany;MSR;Europe
+NÅrnberg (Nuremberg);Germany;NUE;Europe
+Paderborn/Lippstadt;Germany;PAD;Europe
+Saarbruecken;Germany;SCN;Europe
+Stuttgart - Echterdingen;Germany;STR;Europe
+Westerland;Germany;GWT;Europe
+Wiesbaden, Air Base;Germany;WIE;Europe
+Gibraltar;Gibraltar;GIB;Europe
+Araxos;Greece;GPA;Europe
+Chania;Greece;CHQ;Europe
+Chios;Greece;JKH;Europe
+Heraklion;Greece;HER;Europe
+Kalamata;Greece;KLX;Europe
+Karpathos;Greece;AOK;Europe
+Kavalla;Greece;KVA;Europe
+Preveza/Lefkas;Greece;PVK;Europe
+Saloniki;Greece;SKG;Europe
+Samos;Greece;SMI;Europe
+Skiathos;Greece;JSI;Europe
+Thira;Greece;JTR;Europe
+Zakynthos;Greece;ZTH;Europe
+Christmas Line;Iceland;CXI;Europe
+Egilsstadir;Iceland;EGS;Europe
+Reykjavik - Metropolitan Area;Iceland;REK;Europe
+Reykjavik - Keflavik International;Iceland;KEF;Europe
+Sligo;Ireland;SXL;Europe
+Alghero Sassari;Italy;AHO;Europe
+Ancona;Italy;AOI;Europe
+Bari;Italy;BRI;Europe
+Bergamo;Italy;BGY;Europe
+Bologna;Italy;BLQ;Europe
+Brescia, Montichiari;Italy;VBS;Europe
+Brindisi;Italy;BDS;Europe
+Catania;Italy;CTA;Europe
+Florence;Italy;FLR;Europe
+Genoa;Italy;GOA;Europe
+Lamezia Terme;Italy;SUF;Europe
+Lampedusa;Italy;LMP;Europe
+Milan;Italy;MIL;Europe
+Milan - Linate;Italy;LIN;Europe
+Milan - Malpensa;Italy;MXP;Europe
+Milan - Orio Al Serio;Italy;BGY;Europe
+Naples;Italy;NAP;Europe
+Olbia;Italy;OLB;Europe
+Palermo - Punta Raisi;Italy;PMO;Europe
+Pantelleria;Italy;PNL;Europe
+Perugia;Italy;PEG;Europe
+Pescara;Italy;PSR;Europe
+Pisa - Gal Galilei;Italy;PSA;Europe
+Reggio Calabria;Italy;REG;Europe
+Rimini;Italy;RMI;Europe
+Rome;Italy;ROM;Europe
+Rome - Ciampino;Italy;CIA;Europe
+Rome - Fuimicino;Italy;FCO;Europe
+Trapani;Italy;TPS;Europe
+Treviso;Italy;TSF;Europe
+Trieste;Italy;TRS;Europe
+Turin;Italy;TRN;Europe
+Venice - Marco Polo;Italy;VCE;Europe
+Verona (Brescia) Montichiari;Italy;VBS;Europe
+Verona;Italy;VRN;Europe
+Luxembourg;Luxembourg;LUX;Europe
+Amsterdam, Schiphol;Netherlands;AMS;Europe
+Den Haag (The Hague);Netherlands;HAG;Europe
+Eindhoven;Netherlands;EIN;Europe
+Lelystad;Netherlands;LEY;Europe
+Maastricht/Aachen;Netherlands;MST;Europe
+Rotterdam;Netherlands;RTM;Europe
+Alesund;Norway;AES;Europe
+Alta;Norway;ALF;Europe
+Bardufoss;Norway;BDU;Europe
+Bodo;Norway;BOO;Europe
+Broennoeysund;Norway;BNN;Europe
+Evenes;Norway;EVE;Europe
+Floro;Norway;FRO;Europe
+Hammerfest;Norway;HFT;Europe
+Haugesund;Norway;HAU;Europe
+Kirkenes;Norway;KKN;Europe
+Kristiansand;Norway;KRS;Europe
+Kristiansund;Norway;KSU;Europe
+Lakselv;Norway;LKL;Europe
+Sogndal;Norway;SOG;Europe
+Stavanger;Norway;SVG;Europe
+Tromsoe;Norway;TOS;Europe
+Trondheim;Norway;TRD;Europe
+Gdansk;Poland;GDN;Europe
+Poznan, Lawica;Poland;POZ;Europe
+Stettin;Poland;SZZ;Europe
+Faro;Portugal;FAO;Europe
+Funchal;Portugal;FNC;Europe
+Horta;Portugal;HOR;Europe
+Porto;Portugal;OPO;Europe
+Porto Santo;Portugal;PXO;Europe
+Santa Maria;Portugal;SMA;Europe
+Terceira;Portugal;TER;Europe
+Alicante;Spain;ALC;Europe
+Almeria;Spain;LEI;Europe
+Arrecife/Lanzarote;Spain;ACE;Europe
+Badajoz;Spain;BJZ;Europe
+Barcelona;Spain;BCN;Europe
+Bilbao;Spain;BIO;Europe
+Cordoba;Spain;ODB;Europe
+Fuerteventura;Spain;FUE;Europe
+Gerona;Spain;GRO;Europe
+Granada;Spain;GRX;Europe
+Jerez de la Frontera/Cadiz;Spain;XRY;Europe
+La Coruna;Spain;LCG;Europe
+Las Palmas;Spain;LPA;Europe
+Madrid - Barajas;Spain;MAD;Europe
+Mahon;Spain;MAH;Europe
+Malaga;Spain;AGP;Europe
+Murcia;Spain;MJV;Europe
+Oviedo;Spain;OVD;Europe
+Reus;Spain;REU;Europe
+San Sebastian;Spain;EAS;Europe
+Santa Cruz de la Palma;Spain;SPC;Europe
+Santander;Spain;SDR;Europe
+Santiago de Compostela;Spain;SCQ;Europe
+Tenerife;Spain;TCI;Europe
+Tenerife - Sur Reina Sofia;Spain;TFS;Europe
+Tenerife - Norte Los Rodeos;Spain;TFN;Europe
+Valladolid;Spain;VLL;Europe
+Valverde;Spain;VDE;Europe
+Vigo;Spain;VGO;Europe
+Vitoria;Spain;VIT;Europe
+Zaragoza;Spain;ZAZ;Europe
+Longyearbyen - Svalbard;Svalbard/Norway;LYR;Europe
+Helsingborg;Sweden;JHE;Europe
+Joenkoeping;Sweden;JKG;Europe
+Kalmar;Sweden;KLR;Europe
+Karlstad;Sweden;KSD;Europe
+Kiruna;Sweden;KRN;Europe
+Kristianstad;Sweden;KID;Europe
+Lidkoeping;Sweden;LDK;Europe
+Lulea;Sweden;LLA;Europe
+Malmo (Malmoe);Sweden;MMA;Europe
+Malmo (Malmoe) - Sturup;Sweden;MMX;Europe
+Norrkoeping;Sweden;NRK;Europe
+Oerebro;Sweden;ORB;Europe
+Ronneby;Sweden;RNB;Europe
+Sundsvall;Sweden;SDL;Europe
+Vaexjoe;Sweden;VXO;Europe
+Vasteras;Sweden;VST;Europe
+Visby;Sweden;VBY;Europe
+Altenrhein;Switzerland;ACH;Europe
+Basel;Switzerland;BSL;Europe
+Bern;Switzerland;BRN;Europe
+Bern;Switzerland;ZDJ;Europe
+Geneva;Switzerland;GVA;Europe
+Lugano;Switzerland;LUG;Europe
+Zurich (ZÅrich) - Kloten;Switzerland;ZRH;Europe
+Basel/Mulhouse;Switzerland/France;EAP;Europe
+Los Rodeos;Teneriffa/Spain;TFN;Europe
+Reina Sofia;Teneriffa/Spain;TFS;Europe
+Sheffield, City Airport;UK;SZD;Europe
+Aberdeen;United Kingdom;ABZ;Europe
+Birmingham;United Kingdom;BHX;Europe
+Bristol;United Kingdom;BRS;Europe
+Cambrigde;United Kingdom;CBG;Europe
+Cardiff;United Kingdom;CWL;Europe
+Derby (East Midlands);United Kingdom;EMA;Europe
+Derry (Londonderry);United Kingdom;LDY;Europe
+Edinburgh;United Kingdom;EDI;Europe
+Guernsey;United Kingdom;GCI;Europe
+Humberside;United Kingdom;HUY;Europe
+Isle of Man;United Kingdom;IOM;Europe
+Jersey;United Kingdom;JER;Europe
+Leeds/Bradford;United Kingdom;LBA;Europe
+Liverpool;United Kingdom;LPL;Europe
+London;United Kingdom;LON;Europe
+London - City Airport;United Kingdom;LCY;Europe
+London - Gatwick;United Kingdom;LGW;Europe
+London - Heathrow;United Kingdom;LHR;Europe
+London - Luton;United Kingdom;LTN;Europe
+London - Stansted;United Kingdom;STN;Europe
+Manchester;United Kingdom;MAN;Europe
+Newcastle;United Kingdom;NCL;Europe
+Orkney;United Kingdom;KOI;Europe
+Southampton - Eastleigh;United Kingdom;SOU;Europe
+Southend;United Kingdom;SEN;Europe
+Stansted (London);United Kingdom;STN;Europe
+Stornway;United Kingdom;SYY;Europe
+Sumburgh (Shetland);United Kingdom;LSI;Europe
+Teesside, Durham Tees Valley;United Kingdom;MME;Europe
+Wick;United Kingdom;WIC;Europe
+Jerusalem;Israel;JRS;Middle East
+Tel Aviv - Ben Gurion Int'l;Israel;TLV;Middle East
+Beirut;Lebanon;BEY;Middle East
+Istanbul - Ataturk;Turkey;IST;Middle East
+Izmir;Turkey;IZM;Middle East
+Kabul - Khwaja Rawash;Afghanistan;KBL;Middle East
+Bahrain;Bahrain;BAH;Middle East
+Abadan;Iran;ABD;Middle East
+Tehran (Teheran) - Mehrabad;Iran;THR;Middle East
+Bagdad, Al Muthana;Iraq;BGW;Middle East
+Bagdad, Saddam International;Iraq;SDA;Middle East
+Basra, Basrah;Iraq;BSR;Middle East
+Kirkuk;Iraq;KIK;Middle East
+Mosul;Iraq;OSM;Middle East
+Elat;Israel;ETH;Middle East
+Elat, Ovula;Israel;VDA;Middle East
+Haifa;Israel;HFA;Middle East
+Amman, Queen Alia Intl;Jordan;AMM;Middle East
+Amman, Civil - Marka Airport;Jordan;ADJ;Middle East
+Aqaba;Jordan;AQJ;Middle East
+Kuwait - Kuwait Int'l;Kuwait;KWI;Middle East
+Jounieh;Lebanon;GJN;Middle East
+Muscat - Seeb;Oman;MCT;Middle East
+Salalah;Oman;SLL;Middle East
+Bahawalpur;Pakistan;BHV;Middle East
+Bannu;Pakistan;BNP;Middle East
+Chitral;Pakistan;CJL;Middle East
+Dera Ismail Khan;Pakistan;DSK;Middle East
+Faisalabad;Pakistan;LYP;Middle East
+Gilgit;Pakistan;GIL;Middle East
+Gwadar;Pakistan;GWD;Middle East
+Hyderabad;Pakistan;HDD;Middle East
+Islamabad - Islamabad Int'l;Pakistan;ISB;Middle East
+Jacobabad;Pakistan;JAG;Middle East
+Jiwani;Pakistan;JIW;Middle East
+Karachi - Quaid-E-Azam Int'l;Pakistan;KHI;Middle East
+Khuzdar;Pakistan;KDD;Middle East
+Kohat;Pakistan;OHT;Middle East
+Lahore;Pakistan;LHE;Middle East
+Mianwali;Pakistan;MWD;Middle East
+Mirpur;Pakistan;QML;Middle East
+Moenjodaro;Pakistan;MJD;Middle East
+Multan;Pakistan;MUX;Middle East
+Muzaffarabad;Pakistan;MFG;Middle East
+Nawab Shah;Pakistan;WNS;Middle East
+Panjgur;Pakistan;PJG;Middle East
+Pasni;Pakistan;PSI;Middle East
+Peshawar;Pakistan;PEW;Middle East
+Quetta;Pakistan;UET;Middle East
+Rahim Yar Khan;Pakistan;RYK;Middle East
+Rawala Kot;Pakistan;RAZ;Middle East
+Rawalpindi;Pakistan;RWP;Middle East
+Saidu Sharif;Pakistan;SDT;Middle East
+Sindhri;Pakistan;MPD;Middle East
+Skardu;Pakistan;KDU;Middle East
+Sui;Pakistan;SUL;Middle East
+Sukkur;Pakistan;SKZ;Middle East
+Turbat;Pakistan;TUK;Middle East
+Zhob;Pakistan;PZH;Middle East
+Doha;Qatar;DOH;Middle East
+Adana;Turkey;ADA;Middle East
+Ankara;Turkey;ANK;Middle East
+Antalya;Turkey;AYT;Middle East
+Dalaman;Turkey;DLM;Middle East
+Ashgabat, Ashkhabat;Turkmenistan;ASB;Middle East
+Abu Dhabi;UAE;AUH;Middle East
+Alfujairah (Fujairah);UAE;FJR;Middle East
+Dubai;UAE;DXB;Middle East
+Ras al Khaymah (Ras al Khaimah);UAE;RKT;Middle East
+Sharjah;UAE;SHJ;Middle East
+Al Ain;United Arab Emirates;AAN;Middle East
+Fujairah, Int'l Airport;United Arab Emirates;FJR;Middle East
+Dhahran;Saudi Arabia;DHA;Middle East 
+Jeddah - King Abdulaziz Int'l;Saudi Arabia;JED;Middle East 
+Khamis Mushayat;Saudi Arabia;AHB;Middle East 
+Madinah, Mohammad Bin Abdulaziz;Saudi Arabia;MED;Middle East 
+Medina;Saudi Arabia;MED;Middle East 
+Riyadh - King Khaled Int'l;Saudi Arabia;RUH;Middle East 
+Tabuk;Saudi Arabia;TUU;Middle East 
+Taif;Saudi Arabia;TIF;Middle East 
+Yanbu;Saudi Arabia;YNB;Middle East 
+Dammam, King Fahad Int'l;Saudi Arabien;DMM;Middle East 
+Aleppo;Syria;ALP;Middle East 
+Damascus, International;Syria;DAM;Middle East 
+Aden;Yemen;ADE;Middle East 
+Sanaa (Sana'a) - Sana'a International;Yemen;SAH;Middle East 
+Attawapiskat, NT;Canada;YAT;North America
+Bonaventure, PQ;Canada;YVB;North America
+Calgary/Banff;Canada;YYC;North America
+Cambridge Bay;Canada;YCB;North America
+Churchill;Canada;YYQ;North America
+Cienfuegos;Canada;CFG;North America
+Deer Lake/Corner Brook;Canada;YDF;North America
+Edmonton;Canada;YEA;North America
+Edmonton, International;Canada;YEG;North America
+Edmonton, Municipal;Canada;YXD;North America
+Flin Flon;Canada;YFO;North America
+Fort Albert;Canada;YFA;North America
+Fort McMurray;Canada;YMM;North America
+Fort Smith;Canada;YSM;North America
+Fort St. John;Canada;YXJ;North America
+Fredericton;Canada;YFC;North America
+Gander;Canada;YQX;North America
+Gillam;Canada;YGX;North America
+Goose Bay;Canada;YYR;North America
+Halifax Int'l;Canada;YHZ;North America
+Hall Beach;Canada;YUX;North America
+Hamilton;Canada;YHM;North America
+Harrington Harbour, PQ;Canada;YHR;North America
+Inuvik;Canada;YEV;North America
+Iqaluit (Frobisher Bay);Canada;YFB;North America
+Kaschechawan, PQ;Canada;ZKE;North America
+Kelowna, BC;Canada;YLW;North America
+Kuujjuaq (FortChimo);Canada;YVP;North America
+Kuujjuarapik;Canada;YGW;North America
+Lac Brochet, MB;Canada;XLB;North America
+La Grande;Canada;YGL;North America
+Leaf Rapids;Canada;YLR;North America
+London;Canada;YXU;North America
+Moncton;Canada;YQM;North America
+Montreal;Canada;YMQ;North America
+Montreal - Dorval (MontrÇal-Trudeau);Canada;YUL;North America
+Montreal - Mirabel;Canada;YMX;North America
+Nanisivik;Canada;YSR;North America
+Norman Wells;Canada;YVQ;North America
+Ottawa - Hull;Canada;YOW;North America
+Port Menier, PQ;Canada;YPN;North America
+Prince George;Canada;YXS;North America
+Prince Rupert/Digby Island;Canada;YPR;North America
+Pukatawagan;Canada;XPK;North America
+Quebec - Quebec Int'l;Canada;YQB;North America
+Rainbow Lake, AB;Canada;YOP;North America
+Regina;Canada;YQR;North America
+Resolute Bay;Canada;YRB;North America
+Saint John;Canada;YSJ;North America
+Sandspit;Canada;YZP;North America
+Saskatoon;Canada;YXE;North America
+Shamattawa, MB;Canada;ZTM;North America
+Smithers;Canada;YYD;North America
+South Indian Lake, MB;Canada;XSI;North America
+St. Augustin, PQ;Canada;YIF;North America
+St. John's;Canada;YYT;North America
+St. Pierre, NF;Canada;FSP;North America
+Terrace;Canada;YXT;North America
+The Pas;Canada;YQD;North America
+Thompson;Canada;YTH;North America
+Thunder Bay;Canada;YQT;North America
+Toronto Island;Canada;YTZ;North America
+Toronto - Lester B. Pearson;Canada;YYZ;North America
+Toronto;Canada;YTO;North America
+Val d'Or;Canada;YVO;North America
+Vancouver - Vancouver Int'l;Canada;YVR;North America
+Victoria;Canada;YYJ;North America
+Wabush;Canada;YWK;North America
+Whale Cove, NT;Canada;YXN;North America
+Whitehorse;Canada;YXY;North America
+Windsor Ontario;Canada;YQG;North America
+Winnipeg Int'l;Canada;YWG;North America
+Yellowknife;Canada;YZF;North America
+Narsarsuaq;Greenland;UAK;North America
+Soendre Stroemfjord;Greenland;SFJ;North America
+Acapulco;Mexico;ACA;North America
+Aguascaliente;Mexico;AGU;North America
+Cancun;Mexico;CUN;North America
+Chichen Itza;Mexico;CZA;North America
+Chihuahua, Gen Fierro Villalobos;Mexico;CUU;North America
+Ciudad Del Carmen;Mexico;CME;North America
+Ciudad Juarez;Mexico;CJS;North America
+Ciudad Obregon;Mexico;CEN;North America
+Ciudad Victoria;Mexico;CVM;North America
+Colima;Mexico;CLQ;North America
+Cozmel;Mexico;CZM;North America
+Culiacan;Mexico;CUL;North America
+Guadalajara;Mexico;GDL;North America
+Hermosillo - Gen. Pesqueira Garcia;Mexico;HMO;North America
+Huatulco;Mexico;HUX;North America
+Ixtapa/Zihuatenejo;Mexico;ZIH;North America
+La Paz - Leon;Mexico;LAP;North America
+Lazaro Cardenas;Mexico;LZC;North America
+Leon;Mexico;BJX;North America
+Loreto;Mexico;LTO;North America
+Los Cabos;Mexico;SJD;North America
+Los Mochis;Mexico;LMM;North America
+Manzanillo;Mexico;ZLO;North America
+Mazatlan;Mexico;MZT;North America
+Merida;Mexico;MID;North America
+Mexicali;Mexico;MXL;North America
+Mexico City;Mexico;MEX;North America
+Mexico City - Juarez International;Mexico;MEX;North America
+Minatitlan;Mexico;MTT;North America
+Monterrey;Mexico;MTY;North America
+Monterrey - Aeropuerto Del Norte;Mexico;NTR;North America
+Morelia;Mexico;MLM;North America
+Nuevo Laredo;Mexico;NLD;North America
+Oaxaca;Mexico;OAX;North America
+Puebla;Mexico;PBC;North America
+Puerto Escondido;Mexico;PXM;North America
+Puerto Vallarta;Mexico;PVR;North America
+San Jose Cabo;Mexico;SJD;North America
+San Luis Potosi;Mexico;SLP;North America
+Santa Rosalia;Mexico;SRL;North America
+Tampico - Gen. F. Javier Mina;Mexico;TAM;North America
+Tijuana - Rodriguez;Mexico;TIJ;North America
+Tuxtla Gutierrez;Mexico;TGZ;North America
+Veracruz;Mexico;VER;North America
+Villahermosa;Mexico;VSA;North America
+Zacatecas;Mexico;ZCL;North America
+Aberdeen, SD;USA;ABR;North America
+Abilene, TX;USA;ABI;North America
+Akron, OH;USA;CAK;North America
+Albany, GA;USA;ABY;North America
+Albany, NY;USA;ALB;North America
+Albuquerque, NM;USA;ABQ;North America
+Alexandria, La;USA;ESF;North America
+Allentown, PA;USA;ABE;North America
+Altoona, PA;USA;AOO;North America
+Amarillo, TX;USA;AMA;North America
+Anchorage, AK;USA;ANC;North America
+Ann Arbor, MI;USA;ARB;North America
+Anniston, AL;USA;ANB;North America
+Appelton/Neenah/Menasha, WI;USA;ATW;North America
+Asheville, NC;USA;AVL;North America
+Aspen Snowmass, CO;USA;ASE;North America
+Athens, GA;USA;AHN;North America
+Athens, OH;USA;ATO;North America
+Atlanta, Hartsfield Atlanta Int'l Airport;USA;ATL;North America
+Atlantic City, NJ;USA;ACY;North America
+Augusta, GA;USA;AGS;North America
+Augusta, ME;USA;AUG;North America
+Austin, TX;USA;AUS;North America
+Bakersfield, CA;USA;BFL;North America
+"Baltimore Washington Int'l Airport; MD";USA;BWI;North America
+Bangor, ME;USA;BGR;North America
+Baton Rouge, La;USA;BTR;North America
+Beaumont/Pt. Arthur, TX;USA;BPT;North America
+Beckley, WV;USA;BKW;North America
+Bellingham, WA;USA;BLI;North America
+Bemidji, MN;USA;BJI;North America
+Benton Harbour, MI;USA;BEH;North America
+Bethel, AK;USA;BET;North America
+Billings, MT;USA;BIL;North America
+Birmingham, AL;USA;BHM;North America
+Bismarck/Mandan, ND;USA;BIS;North America
+Bloomington, IL;USA;BMI;North America
+Bloomington, IN;USA;BMG;North America
+Bluefield, WV;USA;BLF;North America
+Boise, ID;USA;BOI;North America
+Borrego Springs, CA;USA;BXS;North America
+Boston - Logan, MA;USA;BOS;North America
+Bozeman, MT;USA;BZN;North America
+Bradford/Warren, PA/Olean, NY;USA;BFD;North America
+Brainerd, MN;USA;BRD;North America
+Bridgeport, CT;USA;BDR;North America
+Brookings, SD;USA;BKX;North America
+Brunswick, GA;USA;BQK;North America
+Buffalo/Niagara Falls, NY;USA;BUF;North America
+Bullhead City, NV;USA;BHC;North America
+Burbank, CA;USA;BUR;North America
+Burlington, IA;USA;BRL;North America
+Burlington, VT;USA;BTV;North America
+Butte, MT;USA;BTM;North America
+Carlsbad, CA;USA;CLD;North America
+Casper, WY;USA;CPR;North America
+Cedar City, UT;USA;CDC;North America
+Cedar Rapids, IA;USA;CID;North America
+Champaign, IL;USA;CMI;North America
+Charleston, SC;USA;CHS;North America
+Charleston, WV;USA;CRW;North America
+Charlotte, NC;USA;CLT;North America
+Charlottesville, VA;USA;CHO;North America
+Chattanooga, TN;USA;CHA;North America
+Cheyenne, WY;USA;CYS;North America
+Chicago, Midway, IL;USA;MDW;North America
+Chicago O'Hare Int'l Airport, IL;USA;ORD;North America
+Chicago, IL;USA;CHI;North America
+Chico, CA;USA;CIC;North America
+Cincinnati, OH;USA;CVG;North America
+Clarksburg, WV;USA;CKB;North America
+Cleveland, Burke Lakefront, OH;USA;BKL;North America
+Cleveland, Hopkins, OH;USA;CLE;North America
+Cody/Powell/Yellowstone, WY;USA;COD;North America
+Coffmann Cove, AK;USA;KCC;North America
+College Station/Bryan, TX;USA;CLL;North America
+Colorado Springs, CO;USA;COS;North America
+Columbia, SC;USA;CAE;North America
+Columbus, GA;USA;CSG;North America
+Columbus, OH;USA;CMH;North America
+Concord, CA;USA;CCR;North America
+Cordova, AK;USA;CDV;North America
+Corpus Christi, TX;USA;CRP;North America
+Craig, AK;USA;CGA;North America
+Crescent City, CA;USA;CEC;North America
+Dallas, Love Field, TX;USA;DAL;North America
+Dallas/Ft. Worth, TX;USA;DFW;North America
+Danville, VA;USA;DAN;North America
+Dayton, OH;USA;DAY;North America
+Daytona Beach, FL;USA;DAB;North America
+Decatur, IL;USA;DEC;North America
+Denver International Airport, CO;USA;DEN;North America
+Des Moines, IA;USA;DSM;North America
+Detroit City, MI;USA;DET;North America
+Detroit Metropolitan Wayne County Airport, MI;USA;DTW;North America
+Detroit Metropolitan Area, MI;USA;DTT;North America
+Devils Lake, ND;USA;DVL;North America
+Dillingham, AK;USA;DLG;North America
+Dothan, AL;USA;DHN;North America
+Dubois, PA;USA;DUJ;North America
+Dubuque, IA;USA;DBQ;North America
+Duluth, MN/Superior, WI;USA;DLH;North America
+Durango, CO;USA;DRO;North America
+Dutch Harbor, AK;USA;DUT;North America
+Eau Clarie, WI;USA;EAU;North America
+El Paso, TX;USA;ELP;North America
+Elkhart, IN;USA;EKI;North America
+Elko, NV;USA;EKO;North America
+Elmira, NY;USA;ELM;North America
+Ely, NV;USA;ELY;North America
+Erie, PA;USA;ERI;North America
+Escabana, MI;USA;ESC;North America
+Eugene, OR;USA;EUG;North America
+Eureka, CA;USA;ACV;North America
+Evansville, IN;USA;EVV;North America
+Fairbanks, AK;USA;FAI;North America
+Fargo, ND, MN;USA;FAR;North America
+Farmington, NM;USA;FMN;North America
+Fayetteville, AR;USA;FYV;North America
+Fayetteville/Ft. Bragg, NC;USA;FAY;North America
+Flagstaff, AZ;USA;FLG;North America
+Flint, MI;USA;FNT;North America
+Florence, SC;USA;FLO;North America
+Fort Dodge, IA;USA;FOD;North America
+Fort Huachuca/Sierra Vista, AZ;USA;FHU;North America
+Fort Lauderdale/Hollywood, FL;USA;FLL;North America
+Fort Myers, Metropolitan Area, FL;USA;FMY;North America
+Fort Myers, Southwest Florida Reg, FL;USA;RSW;North America
+Fort Smith, AR;USA;FSM;North America
+Fort Walton Beach, FL;USA;VPS;North America
+Fort Wayne, IN;USA;FWA;North America
+Franklin/Oil City, PA;USA;FKL;North America
+Fresno, CA;USA;FAT;North America
+Gadsden, AL;USA;GAD;North America
+Gainesville, FL;USA;GNV;North America
+Gilette, WY;USA;GCC;North America
+Glasgow, MT;USA;GGW;North America
+Glendive, MT;USA;GDV;North America
+Grand Canyon, AZ;USA;GCN;North America
+Grand Forks, ND;USA;GFK;North America
+Grand Junction, CO;USA;GJT;North America
+Grand Rapids, MI;USA;GRR;North America
+Grand Rapids, MN;USA;GPZ;North America
+Great Falls, MT;USA;GTF;North America
+Green Bay, WI;USA;GRB;North America
+Greenbrier/Lewisburg, WV;USA;LWB;North America
+Greensboro/Winston Salem, NC;USA;GSO;North America
+Greenville, MS;USA;GLH;North America
+Greenville, NC;USA;PGV;North America
+Greenville/Spartanburg, SC;USA;GSP;North America
+Groton/New London, CT;USA;GON;North America
+Gulfport/Biloxi, MS;USA;GPT;North America
+Gunnison/Crested Butte, CO;USA;GUC;North America
+Haines, AK;USA;HNS;North America
+Hancock, MI;USA;CMX;North America
+Harlington/South Padre Island, TX;USA;HRL;North America
+Harrisburg, PA - Harrisburg Skyport;USA;HAR;North America
+Harrisburg, PA - Harrisburg Int'l;USA;MDT;North America
+Hartford, CT/Springfield, MA;USA;BDL;North America
+Havre, MT;USA;HVR;North America
+Helena, MT;USA;HLN;North America
+Hibbing, MN;USA;HIB;North America
+Hickory, NC;USA;HKY;North America
+Hilo, HI;USA;ITO;North America
+Hilton Head Island, SC;USA;HHH;North America
+Homer, AK;USA;HOM;North America
+Honolulu, HI;USA;HNL;North America
+Hoonah, AK;USA;HNH;North America
+Houston, Hobby, TX;USA;HOU;North America
+Houston, Intercontinental, TX;USA;IAH;North America
+Huntington, OH;USA;HTS;North America
+Huntsville, AL;USA;HSV;North America
+Huron, SD;USA;HON;North America
+Hyannis, MA;USA;HYA;North America
+Hydaburg, AK;USA;HYG;North America
+Idaho Falls, ID;USA;IDA;North America
+Iliamna, AK;USA;ILI;North America
+Imperial, CA;USA;IPL;North America
+Indianapolis, IN;USA;IND;North America
+International Falls, MN;USA;INL;North America
+Inykern, CA;USA;IYK;North America
+Ithaca/Cortland, NY;USA;ITH;North America
+Jackson Hole, WY;USA;JAC;North America
+Jackson, MI;USA;JXN;North America
+Jackson, MS;USA;JAN;North America
+Jackson, TN;USA;MKL;North America
+Jacksonville, FL;USA;JAX;North America
+Jacksonville, NC;USA;OAJ;North America
+Jamestown, ND;USA;JMS;North America
+Jamestown, NY;USA;JHW;North America
+Johnstown, PA;USA;JST;North America
+Joplin, MO;USA;JLN;North America
+Juneau, AK - Juneau Int'l;USA;JNU;North America
+Kahului, HI;USA;OGG;North America
+Kalamazoo/Battle Creek, MI;USA;AZO;North America
+Kalispell, MT;USA;FCA;North America
+Kamuela, HI;USA;MUE;North America
+Kansas City, MO - Int'l;USA;MCI;North America
+Kapalua West, HI;USA;JHM;North America
+Kaunakakai, HI;USA;MKK;North America
+Kenai, AK;USA;ENA;North America
+Ketchikan, AK;USA;KTN;North America
+Key West, FL;USA;EYW;North America
+Killeem, TX;USA;ILE;North America
+King Salomon, AK;USA;AKN;North America
+Kingston, NC;USA;ISO;North America
+Klamath Fall, OR;USA;LMT;North America
+Klawock, AK;USA;KLW;North America
+Knoxville, TN;USA;TYS;North America
+Kodiak, AK;USA;ADQ;North America
+Kona, HI;USA;KOA;North America
+Kotzbue, AK;USA;OTZ;North America
+Labouchere Bay, AK;USA;WLB;North America
+La Crosse, WI;USA;LSE;North America
+Lafayette, IN;USA;LAF;North America
+Lafayette, La;USA;LFT;North America
+Lake Charles, La;USA;LCH;North America
+Lake Havasu City, AZ;USA;HII;North America
+Lake Tahoe, CA;USA;TVL;North America
+Lanai City, HI;USA;LNY;North America
+Lancaster, PA;USA;LNS;North America
+Lansing, MI;USA;LAN;North America
+Laramie, WY;USA;LAR;North America
+Laredo, TX;USA;LRD;North America
+Las Vegas, NV;USA;LAS;North America
+Latrobe, PA;USA;LBE;North America
+Laurel/Hattisburg, MS;USA;PIB;North America
+Lawton, OK;USA;LAW;North America
+Lebanon, NH;USA;LEB;North America
+Lewiston, ID;USA;LWS;North America
+Lewistown, MT;USA;LWT;North America
+Lexington, KY;USA;LEX;North America
+Lihue, HI;USA;LIH;North America
+Lincoln, NE;USA;LNK;North America
+Little Rock, AR;USA;LIT;North America
+Long Beach, CA;USA;LGB;North America
+Long Island, AK;USA;LIJ;North America
+Long Island, Islip, NY - Mac Arthur;USA;ISP;North America
+Longview/Kilgore, TX;USA;GGG;North America
+Los Angeles, CA - Int'l;USA;LAX;North America
+Louisville, KY;USA;SDF;North America
+Lubbock, TX;USA;LBB;North America
+Lynchburg, VA;USA;LYH;North America
+Macon, GA;USA;MCN;North America
+Madison, WI;USA;MSN;North America
+Manchester, NH;USA;MHT;North America
+Marathon, FL;USA;MTH;North America
+Marquette, MI;USA;MQT;North America
+Martha's Vineyard, MA;USA;MVY;North America
+Mason City, IA;USA;MCW;North America
+Mattoon, IL;USA;MTO;North America
+McAllen, TX;USA;MFE;North America
+Medford, OR;USA;MFR;North America
+Melbourne, FL;USA;MLB;North America
+Memphis, TN;USA;MEM;North America
+Merced, CA;USA;MCE;North America
+Meridian, MS;USA;MEI;North America
+Metlakatla, AK;USA;MTM;North America
+Miami, FL;USA;MIA;North America
+Midland/Odessa, TX;USA;MAF;North America
+Miles City, MT;USA;MLS;North America
+Milwaukee, WI;USA;MKE;North America
+Minneapolis - St. Paul Int'l Airport, MN;USA;MSP;North America
+Minot, ND;USA;MOT;North America
+Missula, MT;USA;MSO;North America
+Mitchell, SD;USA;MHE;North America
+Mobile, AL - Pascagoula, MS;USA;MOB;North America
+Modesto, CA;USA;MOD;North America
+Moline/Quad Cities, IL;USA;MLI;North America
+Monroe, La;USA;MLU;North America
+Monterey, CA;USA;MRY;North America
+Montgomery, AL;USA;MGM;North America
+Montrose/Tellruide, CO;USA;MTJ;North America
+Morgantown, WV;USA;MGW;North America
+Moses Lake, WA;USA;MWH;North America
+Mt. McKinley, AK;USA;MCL;North America
+Muscle Shoals, AL;USA;MSL;North America
+Muskegon, MI;USA;MKG;North America
+Myrtle Beach, SC;USA;MYR;North America
+Nantucket, MA;USA;ACK;North America
+Naples, FL;USA;APF;North America
+Nashville, TN;USA;BNA;North America
+New Bern, NC;USA;EWN;North America
+New Haven, CT;USA;HVN;North America
+New Orleans, La;USA;MSY;North America
+New York - John F. Kennedy, NY;USA;JFK;North America
+New York - La Guardia, NY;USA;LGA;North America
+New York - Newark, NJ;USA;EWR;North America
+New York, NY;USA;NYC;North America
+Newburgh, NY;USA;SWF;North America
+Newport News/Williamsburg, VA;USA;PHF;North America
+Niagara Falls Int'l;USA;IAG;North America
+Nome, AK;USA;OME;North America
+Norfolk/Virginia Beach, VA;USA;ORF;North America
+North Bend, OR;USA;OTH;North America
+Oakland, CA;USA;OAK;North America
+Oklahoma City, OK - Will Rogers World;USA;OKC;North America
+Omaha, NE;USA;OMA;North America
+Ontario, CA;USA;ONT;North America
+Orange County (Santa Ana), CA;USA;SNA;North America
+Orlando Metropolitan Area, FL;USA;ORL;North America
+Oshkosh, WI;USA;OSH;North America
+Owensboro, KY;USA;OWB;North America
+Oxnard, CA;USA;OXR;North America
+Paducah, KY;USA;PAH;North America
+Page/Lake Powell, AZ;USA;PGA;North America
+Pakersburg, WV/Marietta, OH;USA;PKB;North America
+Palm Springs, CA;USA;PSP;North America
+Palmdale/Lancaster, CA;USA;PMD;North America
+Panama City, FL;USA;PFN;North America
+Pasco, WA;USA;PSC;North America
+Pellston, MI;USA;PLN;North America
+Pendelton, OR;USA;PDT;North America
+Pensacola, FL;USA;PNS;North America
+Peoria/Bloomington, IL;USA;PIA;North America
+Petersburg, AK;USA;PSG;North America
+Philadelphia, PA - Int'l;USA;PHL;North America
+Phoenix, AZ - Sky Harbor Int'l;USA;PHX;North America
+Pierre, SD;USA;PIR;North America
+Pittsburgh Int'l Airport, PA;USA;PIT;North America
+Plattsburgh, NY;USA;PLB;North America
+Pocatello, ID;USA;PIH;North America
+Port Angeles, WA;USA;CLM;North America
+Portland, ME;USA;PWM;North America
+Portland Int'l, OR;USA;PDX;North America
+Poughkeepsie, NY;USA;POU;North America
+Presque Island, ME;USA;PQI;North America
+Providence, RI;USA;PVD;North America
+Prudhoe Bay, AK;USA;SCC;North America
+Pueblo, CO;USA;PUB;North America
+Pullman, WA;USA;PUW;North America
+Quincy, IL;USA;UIN;North America
+Raleigh/Durham, NC;USA;RDU;North America
+Rapid City, SD;USA;RAP;North America
+Reading, PA;USA;RDG;North America
+Redding, CA;USA;RDD;North America
+Redmond, OR;USA;RDM;North America
+Reno, NV;USA;RNO;North America
+Rhinelander, WI;USA;RHI;North America
+Richmond, VA;USA;RIC;North America
+Roanoke, VA;USA;ROA;North America
+Rochester, MN;USA;RST;North America
+Rochester, NY;USA;ROC;North America
+Rock Springs, WY;USA;RKS;North America
+Rockford, IL;USA;RFD;North America
+Rockland, ME;USA;RKD;North America
+Rocky Mount - Wilson, NC;USA;RWI;North America
+Sacramento, CA;USA;SMF;North America
+Saginaw/Bay City/Midland, MI;USA;MBS;North America
+Salem, OR;USA;SLE;North America
+Salinas, CA;USA;SNS;North America
+Salisbury, MD;USA;SBY;North America
+Salt Lake City, UT;USA;SLC;North America
+San Angelo, TX;USA;SJT;North America
+San Antonio, TX;USA;SAT;North America
+San Diego - Lindberg Field Int'l, CA;USA;SAN;North America
+San Francisco - Int'l Airport, SA;USA;SFO;North America
+San Jose, CA;USA;SJC;North America
+San Luis Obisco, CA;USA;SBP;North America
+Santa Barbara, CA;USA;SBA;North America
+Santa Maria, CA;USA;SMX;North America
+Santa Rosa, CA;USA;STS;North America
+Sarasota/Bradenton, FL;USA;SRQ;North America
+Savannah, GA;USA;SAV;North America
+Scottsdale, AZ;USA;SCF;North America
+Seattle/Tacoma, WA;USA;SEA;North America
+Shenandoah Valley/Stauton, VA;USA;SHD;North America
+Sheridan, WY;USA;SHR;North America
+Shreveport, La;USA;SHV;North America
+Sidney, MT;USA;SDY;North America
+Sioux City, IA;USA;SUX;North America
+Sioux Falls, SD;USA;FSD;North America
+Sitka, AK;USA;SIT;North America
+Skagway, AK;USA;SGY;North America
+South Bend, IN;USA;SBN;North America
+Spokane, WA;USA;GEG;North America
+Springfield, IL;USA;SPI;North America
+Springfield, MO;USA;SGF;North America
+St. George, UT;USA;SGU;North America
+St. Louis - Lambert, MO;USA;STL;North America
+State College/Belefonte, PA;USA;SCE;North America
+Steamboat Springs, CO;USA;HDN;North America
+Stockton, CA;USA;SCK;North America
+Sun Valley, ID;USA;SUN;North America
+Syracuse, NY;USA;SYR;North America
+Talkeetna, AK;USA;TKA;North America
+Tallahassee, FL;USA;TLH;North America
+Tampa Int'l, FL;USA;TPA;North America
+Telluride, CO;USA;TEX;North America
+Terre Haute, IN;USA;HUF;North America
+Texarkana, AR;USA;TXK;North America
+Thief River Falls, MN;USA;TVF;North America
+Thorne Bay, AK;USA;KTB;North America
+Toledo, OH;USA;TOL;North America
+Traverse City, MI;USA;TVC;North America
+Trenton/Princeton, NJ;USA;TTN;North America
+Tri-Cities Regional, TN/VA;USA;TRI;North America
+Tucson, AZ;USA;TUS;North America
+Tulepo, MS;USA;TUP;North America
+Tulsa, OK;USA;TUL;North America
+Tuscaloosa, AL;USA;TCL;North America
+Twin Falls, ID;USA;TWF;North America
+Tyler, TX;USA;TYR;North America
+Utica, NY;USA;UCA;North America
+Vail, CO;USA;EGE;North America
+Valdez, AK;USA;VDZ;North America
+Valdosta, GA;USA;VLD;North America
+Vernal, UT;USA;VEL;North America
+Vero Beach/Ft. Pierce, FL;USA;VRB;North America
+Visalia, CA;USA;VIS;North America
+Waco, TX;USA;ACT;North America
+Walla Walla, WA;USA;ALW;North America
+Washington DC - Baltimore Washington Int'l;USA;BWI;North America
+Washington DC - Dulles Int'l;USA;IAD;North America
+Washington DC - Ronald Reagan National;USA;DCA;North America
+Washington, DC;USA;WAS;North America
+Waterloo, IA;USA;ALO;North America
+Watertown, SD;USA;ATY;North America
+Wausau/Stevens Point, WI;USA;CWA;North America
+Wenatchee, WA;USA;EAT;North America
+West Palm Beach, FL;USA;PBI;North America
+West Yellowstone, MT;USA;WYS;North America
+White Plains, NY;USA;HPN;North America
+Wichita Falls, TX;USA;SPS;North America
+Wichita, KS;USA;ICT;North America
+Wilkes Barre/Scranton, PA;USA;AVP;North America
+Williamsport, PA;USA;IPT;North America
+Williston, ND;USA;ISL;North America
+Wilmington, NC;USA;ILM;North America
+Wolf Point, MT;USA;OLF;North America
+Worcester, MA;USA;ORH;North America
+Worland, WY;USA;WRL;North America
+Wrangell, AK;USA;WRG;North America
+Yakima, WA;USA;YKM;North America
+Yakutat, AK;USA;YAK;North America
+Yuma, AZ;USA;YUM;North America
+Orlando Int'l Airport, FL;USA;ORL;North America
+Buenos Aires, Jorge Newbery;Argentina;AEP;South America
+Barranquilla;Colombia;BAQ;South America
+Buenos Aires;Argentina;BUE;South America
+Catagena;Colombia;CTG;South America
+Buenos Aires, Ezeiza Int'l Airport;Argentina;EZE;South America
+Iguazu, Cataratas;Argentina;IGR;South America
+Easter Island;Chile;IPC;South America
+Lima - J Chavez Int'l;Peru;LIM;South America
+Montevideo - Carrasco;Uruguay;MVD;South America
+Santiago de Chile - Arturo Merino Benitez;Chile;SCL;South America
+Quito - Mariscal Sucr;Ecuador;UIO;South America
+La Paz - El Alto;Bolivia;LPB;South America
+Santa Cruz de la Sierra;Bolivia;SRZ;South America
+Punta Arenas;Chile;PUQ;South America
+Valparaiso;Chile;VAP;South America
+Bogota;Colombia;BOG;South America
+Bucaramanga;Colombia;BGA;South America
+Iquitos;Peru;IQT;South America
+Cordoba;Argentina;COR;South America
+Mar del Plata;Argentina;MDQ;South America
+Mendoza;Argentina;MDZ;South America
+Rosario;Argentina;ROS;South America
+Salta, Gen Belgrano;Argentina;SLA;South America
+San Carlos de Bariloche;Argentina;BRC;South America
+Santa Rosa;Argentina;RSA;South America
+Cochabamba;Bolivia;CBB;South America
+Santa Rosa;Bolivia;SRB;South America
+Rio de Janeiro - Galeao;Brazil;GIG;South America
+Rio de Janeiro - Santos Dumont;Brazil;SDU;South America
+Rio de Janeiro;Brazil;RIO;South America
+Sao Paulo;Brazil;SAO;South America
+Sao Paulo - Congonhas;Brazil;CGH;South America
+Sao Paulo - Guarulhos;Brazil;GRU;South America
+Sao Paulo - Viracopos;Brazil;VCP;South America
+Aracaju;Brazil;AJU;South America
+Belem;Brazil;BEL;South America
+Belo Horizonte;Brazil;CNF;South America
+Boa Vista;Brazil;BVB;South America
+Brasilia;Brazil;BSB;South America
+Campo Grande;Brazil;CGR;South America
+Cuiaba;Brazil;CGB;South America
+Curitiba;Brazil;CWB;South America
+Florianopolis;Brazil;FLN;South America
+Fortaleza;Brazil;FOR;South America
+Goiania;Brazil;GYN;South America
+Guarulhos Int'l - Sao Paulo;Brazil;GRU;South America
+Joacaba;Brazil;JCB;South America
+Joao Pessoa - Castro Pinto;Brazil;JPA;South America
+Macapa;Brazil;MCP;South America
+Maceio;Brazil;MCZ;South America
+Manaus;Brazil;MAO;South America
+Montenegro;Brazil;QGF;South America
+Natal;Brazil;NAT;South America
+Porto Alegre;Brazil;POA;South America
+Porto Velho;Brazil;PVH;South America
+Recife;Brazil;REC;South America
+Rio Branco;Brazil;RBR;South America
+Salvador;Brazil;SSA;South America
+Santa Rosa;Brazil;SRA;South America
+Sao Luis;Brazil;SLZ;South America
+Teresina;Brazil;THE;South America
+Uberlandia, MG;Brazil;UDI;South America
+Vitoria;Brazil;VIX;South America
+Cali;Colombia;CLO;South America
+Medellin;Colombia;MDE;South America
+Armenia;Colombia;AXS;South America
+Pereira;Colombia;PEI;South America
+San Andres;Colombia;ADZ;South America
+Santa Rosalia;Colombia;SSL;South America
+Guayaquil;Ecuador;GYE;South America
+Salinas;Ecuador;SNC;South America
+Cayenne;French Guayana;CAY;South America
+Conakry;Guinea;CKY;South America
+Labe;Guinea;LEK;South America
+Bissau;Guinea Bissau;BXO;South America
+Georgetown;Guyana;GEO;South America
+Asuncion;Paraguay;ASU;South America
+Barcelona;Venezuela;BLA;South America
+Caracas;Venezuela;CCS;South America
+Maracaibo - La Chinita;Venezuela;MAR;South America
+Margerita;Venezuela;PMV;South America
+Puerto Ordaz;Venezuela;PZO;South America
+Valencia;Venezuela;VLN;South America
+Alice Springs;Australia;ASP;South Pacific
+Ayers Rock;Australia;AYQ;South Pacific
+Perth Int'l;Australia;PER;South Pacific
+Bora Bora;French Polynesia;BOB;South Pacific
+Papeete - Faaa;French Polynesia (Tahiti);PPT;South Pacific
+Pago Pago;American Samoa;PPG;South Pacific
+Adelaide;Australia;ADL;South Pacific
+Albany;Australia;ALH;South Pacific
+Albury;Australia;ABX;South Pacific
+Ayr;Australia;AYR;South Pacific
+Ballina;Australia;BNK;South Pacific
+Bamaga;Australia;ABM;South Pacific
+Blackwater;Australia;BLT;South Pacific
+Bowen;Australia;ZBO;South Pacific
+Brampton Island;Australia;BMP;South Pacific
+Brisbane;Australia;BNE;South Pacific
+Broken Hill;Australia;BHQ;South Pacific
+Broome;Australia;BME;South Pacific
+Bundaberg;Australia;BDB;South Pacific
+Burnie (Wynyard);Australia;BWT;South Pacific
+Cairns;Australia;CNS;South Pacific
+Canberra;Australia;CBR;South Pacific
+Carnarvon;Australia;CVQ;South Pacific
+Casino;Australia;CSI;South Pacific
+Ceduna;Australia;CED;South Pacific
+Cessnock;Australia;CES;South Pacific
+Charters Towers;Australia;CXT;South Pacific
+Clermont;Australia;CMQ;South Pacific
+Coffs Harbour;Australia;CFS;South Pacific
+Collinsville;Australia;KCE;South Pacific
+Coober Pedy;Australia;CPD;South Pacific
+Cooktown;Australia;CTN;South Pacific
+Cooma;Australia;OOM;South Pacific
+Dalby;Australia;DBY;South Pacific
+Darwin;Australia;DRW;South Pacific
+Daydream Island;Australia;DDI;South Pacific
+Derby;Australia;DRB;South Pacific
+Devonport;Australia;DPO;South Pacific
+Dubbo;Australia;DBO;South Pacific
+Dunk Iceland;Australia;DKI;South Pacific
+Dysart;Australia;DYA;South Pacific
+Emerald;Australia;EDR;South Pacific
+Emerald;Australia;EMD;South Pacific
+Esperance;Australia;EPR;South Pacific
+Geelong;Australia;GEX;South Pacific
+Geraldton;Australia;GET;South Pacific
+Gladstone;Australia;GLT;South Pacific
+Gold Coast;Australia;OOL;South Pacific
+Goondiwindi;Australia;GOO;South Pacific
+Gove (Nhulunbuy);Australia;GOV;South Pacific
+Great Keppel Island;Australia;GKL;South Pacific
+Griffith;Australia;GFF;South Pacific
+Groote Eyeland;Australia;GTE;South Pacific
+Groote Eylandt;Australia;GTI;South Pacific
+Gympie;Australia;GYP;South Pacific
+Hamilton;Australia;HLT;South Pacific
+Hamilton Island;Australia;HTI;South Pacific
+Hayman Island;Australia;HIS;South Pacific
+Hervey Bay;Australia;HVB;South Pacific
+Hinchinbrook Island;Australia;HNK;South Pacific
+Hobart;Australia;HBA;South Pacific
+Home Hill;Australia;HMH;South Pacific
+Ingham;Australia;IGH;South Pacific
+Innisfail;Australia;IFL;South Pacific
+Kalgoorlie;Australia;KGI;South Pacific
+Karratha;Australia;KTA;South Pacific
+Karumba;Australia;KRB;South Pacific
+Katherine;Australia;KTR;South Pacific
+Kingscote;Australia;KGC;South Pacific
+Kowanyama;Australia;KWM;South Pacific
+Kununurra;Australia;KNX;South Pacific
+Launceston;Australia;LST;South Pacific
+Laverton;Australia;LVO;South Pacific
+Learmouth (Exmouth);Australia;LEA;South Pacific
+Leinster;Australia;LER;South Pacific
+Leonora;Australia;LNO;South Pacific
+Lindeman Island;Australia;LDC;South Pacific
+Lismore;Australia;LSY;South Pacific
+Lizard Island;Australia;LZR;South Pacific
+Lockhart River;Australia;IRG;South Pacific
+Longreach;Australia;LRE;South Pacific
+Mackay;Australia;MKY;South Pacific
+Maitland;Australia;MTL;South Pacific
+Maryborough;Australia;MBH;South Pacific
+Meekatharra;Australia;MKR;South Pacific
+Melbourne - Tullamarine;Australia;MEL;South Pacific
+Merimbula;Australia;MIM;South Pacific
+Middlemount;Australia;MMM;South Pacific
+Mildura;Australia;MQL;South Pacific
+Moranbah;Australia;MOV;South Pacific
+Moree;Australia;MRZ;South Pacific
+Mount Gambier;Australia;MGB;South Pacific
+Mount Magnet;Australia;MMG;South Pacific
+Mt. Isa;Australia;ISA;South Pacific
+Narrabri;Australia;NAA;South Pacific
+Narrandera;Australia;NRA;South Pacific
+Newcastle - Belmont;Australia;BEO;South Pacific
+Newcastle - Williamtown;Australia;NTL;South Pacific
+Newman;Australia;ZNE;South Pacific
+Noosa;Australia;NSA;South Pacific
+Norfolk Island;Australia;NLK;South Pacific
+Olympic Dam;Australia;OLP;South Pacific
+Orange;Australia;OAG;South Pacific
+Orpheus Island;Australia;ORS;South Pacific
+Paraburdoo;Australia;PBO;South Pacific
+Port Augusta;Australia;PUG;South Pacific
+Port Hedland;Australia;PHE;South Pacific
+Portland;Australia;PTJ;South Pacific
+Port Lincoln;Australia;PLO;South Pacific
+Port Macquarie;Australia;PQQ;South Pacific
+Prosperpine;Australia;PPP;South Pacific
+Queenstown;Australia;UEE;South Pacific
+Rockhampton;Australia;ROK;South Pacific
+Scone;Australia;NSO;South Pacific
+Shute Harbour;Australia;JHQ;South Pacific
+Singleton;Australia;SIX;South Pacific
+South Molle Island;Australia;SOI;South Pacific
+Streaky Bay;Australia;KBY;South Pacific
+Sunshine Coast;Australia;MCY;South Pacific
+Sydney - Kingsford Smith;Australia;SYD;South Pacific
+Tamworth;Australia;TMW;South Pacific
+Taree;Australia;TRO;South Pacific
+Temora;Australia;TEM;South Pacific
+Tennant Creek;Australia;TCA;South Pacific
+Thursday Island;Australia;TIS;South Pacific
+Tom Price;Australia;TPR;South Pacific
+Toowoomba;Australia;TWB;South Pacific
+Townsville;Australia;TSV;South Pacific
+Wagga;Australia;WGA;South Pacific
+Warrnambool;Australia;WMB;South Pacific
+Weipa;Australia;WEI;South Pacific
+Whitsunday Resort;Australia;HAP;South Pacific
+Whyalla;Australia;WYA;South Pacific
+Wickham;Australia;WHM;South Pacific
+Wiluna;Australia;WUN;South Pacific
+Wollongong;Australia;WOL;South Pacific
+Woomera;Australia;UMR;South Pacific
+Wyndham;Australia;WYN;South Pacific
+Huahine;French Polynesia;HUH;South Pacific
+Manihi;French Polynesia;XMH;South Pacific
+Maupiti;French Polynesia;MAU;South Pacific
+Moorea;French Polynesia;MOZ;South Pacific
+Raiatea;French Polynesia;RFP;South Pacific
+Rangiroa;French Polynesia;RGI;South Pacific
+Grenada;Grenada;GND;South Pacific
+Agana;Guam;SUM;South Pacific
+Guam;Guam;GUM;South Pacific
+Rarotonga Cook;Island;RAR;South Pacific
+King Island;King Island;KNS;South Pacific
+Lifou;Loyaute, Pazifik;LIF;South Pacific
+Pohnpei;Micronesia;PNI;South Pacific
+Ile des Pins;New Caledonia;ILP;South Pacific
+Ile Ouen;New Caledonia;IOU;South Pacific
+Mare;New Caledonia;MEE;South Pacific
+Noumea;New Caledonia;NOU;South Pacific
+Touho;New Caledonia;TOU;South Pacific
+Saipan;Northern Mariana Islands;SPN;South Pacific
+Apia;Samoa;APW;South Pacific
+Guadalcanal;Solomon Islands;GSI;South Pacific
+Honiara Henderson Int'l;Solomon Islands;HIR;South Pacific
+Port Vila;Vanuatu;VLI;South Pacific
+Santo;Vanuatu;SON;South Pacific
+Futuna;Wallis and Futuna Islands;FUT;South Pacific
+Wallis;Wallis and Futuna Islands;WLS;South Pacific
+Auckland;New Zealand;AKL;South Pacific 
+Blenheim;New Zealand;BHE;South Pacific 
+Christchurch;New Zealand;CHC;South Pacific 
+Dunedin;New Zealand;DUD;South Pacific 
+Incercargill;New Zealand;IVC;South Pacific 
+Invercargill;New Zealand;IVC;South Pacific 
+Milford Sound;New Zealand;MFN;South Pacific 
+Mount Cook;New Zealand;GTN;South Pacific 
+Nelson;New Zealand;NSN;South Pacific 
+Palmerston North;New Zealand;PMR;South Pacific 
+Queenstown;New Zealand;ZQN;South Pacific 
+Rotorua;New Zealand;ROT;South Pacific 
+Te Anau;New Zealand;TEU;South Pacific 
+Wellington;New Zealand;WLG;South Pacific 
+Whakatane;New Zealand;WHK;South Pacific 
+Whangarei;New Zealand;WRE;South Pacific 
+Lome;Togo;LFW;South Pacific 
+Nuku'alofa - Fua'Amotu International;Tonga;TBU;South Pacific 
+Phnom Penh - Pochentong;Cambodia;PNH;Southeast Asia
+Vientiane - Wattay;Laos;VTE;Southeast Asia
+Rangoon (Yangon) - Mingaladon;Myanmar (Burma);RGN;Southeast Asia
+Yangon (Rangoon) - Mingaladon;Myanmar (Burma);RGN;Southeast Asia
+Bandar Seri Begawan;Brunei;BWN;Southeast Asia
+Kuala Belait;Brunei;KUB;Southeast Asia
+Bujumbura;Burundi;BJM;Southeast Asia
+Douala;Cameroon;DLA;Southeast Asia
+Garoua;Cameroon;GOU;Southeast Asia
+Maroua;Cameroon;MVR;Southeast Asia
+N'Gaoundere;Cameroon;NGE;Southeast Asia
+Yaounde;Cameroon;YAO;Southeast Asia
+Denpasar/Bali;Indonesia;DPS;Southeast Asia
+Jakarta - Halim Perdanakusma;Indonesia;HLP;Southeast Asia
+Jakarta - Kemayoran;Indonesia;JKT;Southeast Asia
+Jakarta - Soekarno-Hatta;Indonesia;CGK;Southeast Asia
+Medan;Indonesia;MES;Southeast Asia
+Manado;Indonesia;MDC;Southeast Asia
+Surabaya - Juanda;Indonesia;SUB;Southeast Asia
+Tioman;Indonesia;TOD;Southeast Asia
+Ujung Pandang;Indonesia;UPG;Southeast Asia
+Bintulu;Malaysia;BTU;Southeast Asia
+Johore Bahru;Malaysia;JHB;Southeast Asia
+Kota Kinabalu;Malaysia;BKI;Southeast Asia
+Kuala Lumpur - Int'l Airport;Malaysia;KUL;Southeast Asia
+Kuala Lumpur - Sultan Abdul Aziz Shah;Malaysia;SZB;Southeast Asia
+Kuantan;Malaysia;KUA;Southeast Asia
+Kuching;Malaysia;KCH;Southeast Asia
+Labuan;Malaysia;LBU;Southeast Asia
+Langkawi;Malaysia;LGK;Southeast Asia
+Miri;Malaysia;MYY;Southeast Asia
+Penang International;Malaysia;PEN;Southeast Asia
+Sibu;Malaysia;SBW;Southeast Asia
+Tawau;Malaysia;TWU;Southeast Asia
+Lae;Papua New Guinea;LAE;Southeast Asia
+Manguna;Papua New Guinea;MFO;Southeast Asia
+Port Moresby - Jackson Field;Papua New Guinea;POM;Southeast Asia
+Cebu;Philippines;CBU;Southeast Asia
+Mactan Island - Nab;Philippines;NOP;Southeast Asia
+Manila - Ninoy Aquino Int'l;Philippines;MNL;Southeast Asia
+Bangkok;Thailand;BKK;Southeast Asia
+Chiang Mai;Thailand;CNX;Southeast Asia
+Hatyai (Hat Yai);Thailand;HDY;Southeast Asia
+Pattaya;Thailand;PYX;Southeast Asia
+Phuket;Thailand;HKT;Southeast Asia
+Utapao (Pattaya);Thailand;UTP;Southeast Asia
+Hanoi - Noibai;Viet Nam;HAN;Southeast Asia
+Ho Chi Minh City (Saigon);Viet Nam;SGN;Southeast Asia
+Hue - Phu Bai;Viet Nam;HUI;Southeast Asia
+Saigon (Ho Chi Minh City);Viet Nam;SGN;Southeast Asia
