@@ -5,16 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 using Model;
 
-namespace RobotSQL.Repository
+namespace QuerySQLDapperMicroService.Repository
 {
     public interface IAirportRepository
     {
-        bool Add(AirportSQL airport);
-
-        List<AirportSQL> GetAll();
 
         AirportSQL GetById(int id);
 
         AirportSQL GetByCode(string code);
+
     }
 }

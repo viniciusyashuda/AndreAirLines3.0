@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Model;
-using RobotSQL.Repository;
+using QuerySQLDapperMicroService.Repository;
 
-namespace RobotSQL.Service
+namespace QuerySQLDapperMicroService.Service
 {
     public class AirportService
     {
@@ -20,19 +20,6 @@ namespace RobotSQL.Service
 
         }
 
-        public bool Add(AirportSQL airport)
-        {
-
-            return _airport.Add(airport);
-
-        }
-
-        public List<AirportSQL> GetAll()
-        {
-
-            return _airport.GetAll();
-
-        }
 
         public AirportSQL GetById(int id)
         {
@@ -47,9 +34,6 @@ namespace RobotSQL.Service
             return _airport.GetByCode(code);
 
         }
-
-
-
 
     }
 }

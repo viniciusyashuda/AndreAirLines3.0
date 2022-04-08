@@ -6,27 +6,27 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Model;
-using QuerySQLEntityFrameworkMicroService.Data;
+using QuerySQLDapperMicroService.Data;
+using QuerySQLDapperMicroService.Service;
 
-namespace QuerySQLEntityFrameworkMicroService.Controllers
+namespace QuerySQLDapperMicroService.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class AirportSQLController : ControllerBase
     {
-        private readonly QuerySQLEntityFrameworkMicroServiceContext _context;
+        private readonly QuerySQLDapperMicroServiceContext _context;
 
-        public AirportSQLController(QuerySQLEntityFrameworkMicroServiceContext context)
+        public AirportSQLController(QuerySQLDapperMicroServiceContext context)
         {
             _context = context;
         }
 
-
         // GET: api/AirportSQL/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<AirportSQL>> GetAirportSQLById(int id)
+        public ActionResult<AirportSQL> GetAirportSQLById(int id)
         {
-            var airportSQL = await _context.Airport.FindAsync(id);
+            var airportSQL = new AirportService().GetById(id);
 
             if (airportSQL == null)
             {
@@ -34,13 +34,14 @@ namespace QuerySQLEntityFrameworkMicroService.Controllers
             }
 
             return airportSQL;
-        }        
+
+        }
 
         // GET: api/AirportSQL/5/Code
         [HttpGet("code/{code}")]
-        public async Task<ActionResult<AirportSQL>> GetAirportSQLByCode(string code)
+        public ActionResult<AirportSQL> GetAirportSQLByCode(string code)
         {
-            var airportSQL = await _context.Airport.Where(airport => airport.Code == code).FirstOrDefaultAsync();
+            var airportSQL = new AirportService().GetByCode(code);
 
             if (airportSQL == null)
             {
@@ -49,6 +50,5 @@ namespace QuerySQLEntityFrameworkMicroService.Controllers
 
             return airportSQL;
         }
-
     }
 }

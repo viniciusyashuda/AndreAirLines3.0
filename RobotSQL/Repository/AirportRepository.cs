@@ -41,5 +41,73 @@ namespace RobotSQL.Repository
 
         }
 
+        public List<AirportSQL> GetAll()
+        {
+            try
+            {
+
+                using (var db = new SqlConnection(_connection))
+                {
+                    db.Open();
+                    var airports = db.Query<AirportSQL>(AirportSQL.GETALL);
+                    return (List<AirportSQL>)airports;
+                }
+
+            }
+            catch
+            {
+
+                Console.WriteLine("\nNo data was found! Check if there is any data inserted in your database!");
+                return null;
+                
+            }
+
+
+        }
+
+        public AirportSQL GetById(int id)
+        {
+
+            try
+            {
+                using (var db = new SqlConnection(_connection))
+                {
+                    db.Open();
+                    var airport = db.QueryFirst<AirportSQL>(AirportSQL.GETBYID, new { Id = id });
+                    return (AirportSQL)airport;
+                }
+            }
+            catch
+            {
+                Console.WriteLine("\nNo data with this id was found! Check if the Id inserted is correct and if there is any data inserted in your database!");
+                return null;
+            }
+
+
+
+        }
+
+        public AirportSQL GetByCode(string code)
+        {
+            try
+            {
+
+                using (var db = new SqlConnection(_connection))
+                {
+                    db.Open();
+                    var airport = db.QueryFirst<AirportSQL>(AirportSQL.GETBYCODE, new { Code = code });
+                    return (AirportSQL)airport;
+                }
+
+            }
+            catch
+            {
+                Console.WriteLine("\nNo data with this id was found! Check if the Code inserted is correct and if there is any data inserted in your database!");
+                return null;
+            }
+
+
+        }
+
     }
 }
