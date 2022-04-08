@@ -11,11 +11,6 @@ namespace RobotSQL
             foreach (var airport in ReadFileCSV.ReadCSV())
                 new AirportService().Add(airport);
 
-            foreach (var item in new AirportService().GetAll())
-            {
-                Console.WriteLine(item);
-            }
-
         }
     }
 }
