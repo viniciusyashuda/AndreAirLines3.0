@@ -27,11 +27,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Servic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RobotSQL", "RobotSQL\RobotSQL.csproj", "{6E00F8B4-3EEE-486C-BD64-F02E42ABD859}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuerySQLDapperMicroService", "QuerySQLDapperMicroService\QuerySQLDapperMicroService.csproj", "{BF818030-D09F-43AF-A995-CAEBE56463E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuerySQLDapperMicroService", "QuerySQLDapperMicroService\QuerySQLDapperMicroService.csproj", "{BF818030-D09F-43AF-A995-CAEBE56463E6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MicroServiceQueries", "MicroServiceQueries", "{106FAD62-8201-4D91-B761-49B3597A26A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuerySQLEntityFrameworkMicroService", "QuerySQLEntityFrameworkMicroService\QuerySQLEntityFrameworkMicroService.csproj", "{CF8769B6-7109-4B9F-8A03-63A72DFB1350}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuerySQLEntityFrameworkMicroService", "QuerySQLEntityFrameworkMicroService\QuerySQLEntityFrameworkMicroService.csproj", "{CF8769B6-7109-4B9F-8A03-63A72DFB1350}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogMicroService", "LogMicroService\LogMicroService.csproj", "{C7E4ED0A-522F-4D1A-945B-DC940CCD895F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserMicroService", "UserMicroService\UserMicroService.csproj", "{BCFCA1CC-A2F3-4714-8851-7939430B18A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MicroServiceFrontEnd", "MicroServiceFrontEnd", "{464BBBAE-AD13-49D3-9973-C8C4B68BDE3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC_MicroService", "MVC_MicroService\MVC_MicroService.csproj", "{9F3F06FB-A1F4-4FD1-B4E3-C58558A522CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +91,18 @@ Global
 		{CF8769B6-7109-4B9F-8A03-63A72DFB1350}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF8769B6-7109-4B9F-8A03-63A72DFB1350}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF8769B6-7109-4B9F-8A03-63A72DFB1350}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7E4ED0A-522F-4D1A-945B-DC940CCD895F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7E4ED0A-522F-4D1A-945B-DC940CCD895F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7E4ED0A-522F-4D1A-945B-DC940CCD895F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7E4ED0A-522F-4D1A-945B-DC940CCD895F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCFCA1CC-A2F3-4714-8851-7939430B18A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCFCA1CC-A2F3-4714-8851-7939430B18A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCFCA1CC-A2F3-4714-8851-7939430B18A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCFCA1CC-A2F3-4714-8851-7939430B18A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F3F06FB-A1F4-4FD1-B4E3-C58558A522CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F3F06FB-A1F4-4FD1-B4E3-C58558A522CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F3F06FB-A1F4-4FD1-B4E3-C58558A522CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F3F06FB-A1F4-4FD1-B4E3-C58558A522CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,6 +119,9 @@ Global
 		{6E00F8B4-3EEE-486C-BD64-F02E42ABD859} = {00222824-9EDC-41F5-B5C9-F4BCE68DAB0B}
 		{BF818030-D09F-43AF-A995-CAEBE56463E6} = {106FAD62-8201-4D91-B761-49B3597A26A2}
 		{CF8769B6-7109-4B9F-8A03-63A72DFB1350} = {106FAD62-8201-4D91-B761-49B3597A26A2}
+		{C7E4ED0A-522F-4D1A-945B-DC940CCD895F} = {14D51965-19FF-41FB-80F5-B9ABA44C64B3}
+		{BCFCA1CC-A2F3-4714-8851-7939430B18A0} = {14D51965-19FF-41FB-80F5-B9ABA44C64B3}
+		{9F3F06FB-A1F4-4FD1-B4E3-C58558A522CD} = {464BBBAE-AD13-49D3-9973-C8C4B68BDE3C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7F26E25C-5334-4C95-B8CE-10EEE9238FA5}

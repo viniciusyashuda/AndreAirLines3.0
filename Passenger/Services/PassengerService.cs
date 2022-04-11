@@ -28,16 +28,16 @@ namespace PassengerMicroService.Services
         public Passenger GetCpf(string cpf) =>
             _passenger.Find<Passenger>(passenger => passenger.Cpf == cpf).FirstOrDefault();
 
-        public Passenger Create (Passenger passenger)
+        public Passenger Create(Passenger passenger)
         {
 
             var passengerFound = GetCpf(passenger.Cpf);
 
-            if(passengerFound == null)
+            if (passengerFound == null)
             {
 
-            _passenger.InsertOne(passenger);
-            return passenger;
+                _passenger.InsertOne(passenger);
+                return passenger;
 
             }
 
@@ -53,6 +53,6 @@ namespace PassengerMicroService.Services
 
         public void Remove(string id) =>
             _passenger.DeleteOne(passenger => passenger.Id == id);
-        
+
     }
 }

@@ -52,7 +52,7 @@ namespace AirportMicroService.Controllers
             if(address_viacep != null)
             {
 
-                airport.Address = new Address(address_viacep.PostalCode, address_viacep.Street, airport.Address.Number, address_viacep.District, address_viacep.City, airport.Address.Country, address_viacep.Federative_Unit, airport.Address.Complement);
+                airport.Address = new Address(address_viacep.PostalCode, address_viacep.Street, airport.Address.Number, address_viacep.District, address_viacep.City, airport.Address.Country, airport.Address.Continent, address_viacep.Federative_Unit, airport.Address.Complement);
 
             }
 

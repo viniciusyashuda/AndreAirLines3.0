@@ -51,7 +51,7 @@ namespace PassengerMicroService.Controllers
             if (address_viacep != null)
             {
 
-                passenger.Address = new Address(address_viacep.PostalCode, address_viacep.Street, passenger.Address.Number, address_viacep.District, address_viacep.City, passenger.Address.Country, address_viacep.Federative_Unit, passenger.Address.Complement);
+                passenger.Address = new Address(address_viacep.PostalCode, address_viacep.Street, passenger.Address.Number, address_viacep.District, address_viacep.City, passenger.Address.Country, passenger.Address.Continent, address_viacep.Federative_Unit, passenger.Address.Complement);
 
             }
 

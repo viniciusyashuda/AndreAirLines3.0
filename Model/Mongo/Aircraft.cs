@@ -21,5 +21,7 @@ namespace Model
 
         public int Capacity { get; set; }
 
+        public string LoginUser { get; set; }
+
     }
 }

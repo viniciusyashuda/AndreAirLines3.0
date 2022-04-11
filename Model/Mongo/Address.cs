@@ -1,14 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 using Newtonsoft.Json;
 
 namespace Model
 {
+    [NotMapped]
+        [Keyless]
     public class Address
     {
 
@@ -28,12 +32,14 @@ namespace Model
 
         public string Country { get; set; }
 
+        public string Continent { get; set; }
+
         [JsonProperty("uf")]
         public string Federative_Unit { get; set; }
 
         public string Complement { get; set; }
 
-        public Address(string postalCode, string street, int number, string district, string city, string country, string federative_Unit, string complement)
+        public Address(string postalCode, string street, int number, string district, string city, string country, string continent, string federative_Unit, string complement)
         {
             PostalCode = postalCode;
             Street = street;
@@ -41,6 +47,7 @@ namespace Model
             District = district;
             City = city;
             Country = country;
+            Continent = continent;
             Federative_Unit = federative_Unit;
             Complement = complement;
         }
