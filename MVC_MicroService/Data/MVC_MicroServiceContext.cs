@@ -14,7 +14,7 @@ namespace MVC_MicroService.Data
         {
         }
 
-        public DbSet<Model.AirportSQL> AirportSQL { get; set; }
+        public DbSet<Model.AirportSQL> Airport { get; set; }
 
         //public DbSet<Model.Airport> Airport { get; set; }
     }

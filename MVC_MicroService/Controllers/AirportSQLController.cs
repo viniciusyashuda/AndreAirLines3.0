@@ -22,7 +22,7 @@ namespace MVC_MicroService.Controllers
         // GET: AirportSQL
         public async Task<IActionResult> Index()
         {
-            return View(await _context.AirportSQL.ToListAsync());
+            return View(await _context.Airport.ToListAsync());
         }
 
         // GET: AirportSQL/Details/5
@@ -33,7 +33,7 @@ namespace MVC_MicroService.Controllers
                 return NotFound();
             }
 
-            var airportSQL = await _context.AirportSQL
+            var airportSQL = await _context.Airport
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (airportSQL == null)
             {
@@ -73,7 +73,7 @@ namespace MVC_MicroService.Controllers
                 return NotFound();
             }
 
-            var airportSQL = await _context.AirportSQL.FindAsync(id);
+            var airportSQL = await _context.Airport.FindAsync(id);
             if (airportSQL == null)
             {
                 return NotFound();
@@ -124,7 +124,7 @@ namespace MVC_MicroService.Controllers
                 return NotFound();
             }
 
-            var airportSQL = await _context.AirportSQL
+            var airportSQL = await _context.Airport
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (airportSQL == null)
             {
@@ -139,15 +139,15 @@ namespace MVC_MicroService.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var airportSQL = await _context.AirportSQL.FindAsync(id);
-            _context.AirportSQL.Remove(airportSQL);
+            var airportSQL = await _context.Airport.FindAsync(id);
+            _context.Airport.Remove(airportSQL);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool AirportSQLExists(int id)
         {
-            return _context.AirportSQL.Any(e => e.Id == id);
+            return _context.Airport.Any(e => e.Id == id);
         }
     }
 }

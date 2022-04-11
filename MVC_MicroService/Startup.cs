@@ -10,6 +10,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 using MVC_MicroService.Data;
+using MVC_MicroService.Config;
+using Microsoft.Extensions.Options;
+using MVC_MicroService.Services;
 
 namespace MVC_MicroService
 {
@@ -29,6 +32,14 @@ namespace MVC_MicroService
 
             services.AddDbContext<MVC_MicroServiceContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("MVC_MicroServiceContext")));
+
+            services.Configure<FrontEndSettings>(
+               Configuration.GetSection(nameof(FrontEndSettings)));
+            services.AddSingleton<IFrontEndSettings>(sp =>
+                sp.GetRequiredService<IOptions<FrontEndSettings>>().Value);
+            services.AddSingleton<FrontEndService>();
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
