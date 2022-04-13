@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Model;
@@ -18,6 +19,37 @@ namespace UserMicroService.Controllers
         public UsersController(UserService service)
         {
             _user = service;
+        }
+
+        [HttpPost]
+        [Route("login")]
+        [AllowAnonymous]
+        public async Task<ActionResult<dynamic>> Authenticate([FromBody] User model)
+        {
+
+            // Recupera o usuário
+            var user =  _user.Get(model.Login);
+
+            // Verifica se o usuário existe
+            if (user == null)
+                return NotFound(new { message = "User or password invalid!" });
+            else if (user.Password != model.Password)
+                return NotFound(new { message = "User or password invalid!" });
+
+
+
+            // Gera o Token
+            var token = TokenService.GenerateToken(user);
+
+            // Oculta a senha
+            user.Password = "";
+
+            // Retorna os dados
+            return new
+            {
+                user = user,
+                token = token
+            };
         }
 
         [HttpGet]
@@ -43,6 +75,7 @@ namespace UserMicroService.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create(User user)
         {
 
@@ -78,6 +111,7 @@ namespace UserMicroService.Controllers
 
 
         [HttpPut(("{login}"))]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Update(string login, User user_updated)
         {
 
@@ -119,6 +153,7 @@ namespace UserMicroService.Controllers
         }
 
         [HttpDelete("{login}")]
+        [Authorize(Roles = "Admin")]
         public IActionResult Remove(string login, User user)
         {
 

@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Model;
 using Newtonsoft.Json;
 
-namespace AircraftMicroService.Services
+namespace LogMicroService.Services
 {
     public class SearchUser
     {
@@ -28,13 +28,12 @@ namespace AircraftMicroService.Services
 
 
             }
-            catch 
+            catch
             {
                 return null;
             }
 
         }
-
 
     }
 }

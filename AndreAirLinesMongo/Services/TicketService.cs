@@ -84,6 +84,7 @@ namespace TicketMicroService.Services
             ticket.Flight = flight;
             ticket.BasePrice = base_price;
             ticket.Passenger = passenger;
+            ticket.TotalValue = (base_price.Value + ticket.Class.Class_Value) * (1 - ticket.SalePercentage);
 
             _ticket.InsertOne(ticket);
 

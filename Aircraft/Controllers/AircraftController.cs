@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using AircraftMicroService.Service;
+using AircraftMicroService.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Model;
@@ -19,6 +21,37 @@ namespace AircraftMicroServices.Controllers
 
             _aircraft = service;
 
+        }
+
+        [HttpPost]
+        [Route("login")]
+        [AllowAnonymous]
+        public async Task<ActionResult<dynamic>> Authenticate([FromBody] User model)
+        {
+
+            // Recupera o usuário
+            var user = await SearchUser.FindUserAsync(model.Login);
+
+            // Verifica se o usuário existe
+            if (user == null)
+                return NotFound(new { message = "User or password invalid!" });
+            else if(user.Password != model.Password)
+                return NotFound(new { message = "User or password invalid!" });
+
+      
+
+            // Gera o Token
+            var token = TokenService.GenerateToken(user);
+
+            // Oculta a senha
+            user.Password = "";
+
+            // Retorna os dados
+            return new
+            {
+                user = user,
+                token = token
+            };
         }
 
         [HttpGet]
@@ -41,6 +74,7 @@ namespace AircraftMicroServices.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create(Aircraft aircraft)
         {
 
@@ -57,6 +91,7 @@ namespace AircraftMicroServices.Controllers
         }
 
         [HttpPut("{id:length(24)}")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Update(string id, Aircraft aircraft_updated)
         {
 
@@ -81,6 +116,7 @@ namespace AircraftMicroServices.Controllers
         }
 
         [HttpDelete("{id:length(24)}")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(string id, User user)
         {
 
