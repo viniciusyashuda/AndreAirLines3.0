@@ -34,7 +34,7 @@ namespace AirportMicroService.Controllers
             if(airport == null)
             {
 
-                return NotFound();
+                return NotFound("Airport not found!");
 
             }
 
@@ -44,7 +44,7 @@ namespace AirportMicroService.Controllers
 
 
         [HttpPost]
-        public async Task<IActionResult> CreateAsync(Airport airport)
+        public async Task<IActionResult> Create(Airport airport)
         {
 
             var address_viacep = await ViaCep.GetAddressViaCep(airport.Address.PostalCode);
@@ -56,18 +56,17 @@ namespace AirportMicroService.Controllers
 
             }
 
-            if(_airport.Create(airport) == null)
+            if(await _airport.Create(airport) == null)
             {
-                return BadRequest("Airport already exist!");
+                return BadRequest("The user is not authorized, the log insertion went wrong or the airport already exists!");
             }
 
             return CreatedAtRoute("GetAirport", new { id = airport.Id.ToString()}, airport);
-
                
         }
 
         [HttpPut("{id:length(24)}")]
-        public IActionResult Update(string id, Airport airport_updated)
+        public async Task<IActionResult> Update(string id, Airport airport_updated)
         {
 
             var airport = _airport.Get(id);
@@ -75,18 +74,24 @@ namespace AirportMicroService.Controllers
             if(airport == null)
             {
 
-                return NotFound();
+                return NotFound("Airport not found!");
 
             }
 
-            _airport.Update(id, airport_updated);
-            return NoContent();
+            if(await _airport.Update(id, airport_updated) != null)
+            {
+
+                return Ok("Airport successfully updated!");
+
+            }
+
+            return BadRequest("The user is not authorized or the log insertion went wrong!");
 
         }
 
 
         [HttpDelete("{id:length(24)}")]
-        public IActionResult Delete (string id)
+        public async Task<IActionResult> Delete(string id, User user)
         {
 
             var airport = _airport.Get(id);
@@ -95,12 +100,18 @@ namespace AirportMicroService.Controllers
             if(airport == null)
             {
 
-                return NotFound();
+                return NotFound("Airport not found!");
 
             }
 
-            _airport.Remove(id);
-            return NoContent();
+            if (await _airport.Remove(id, user) != null)
+            {
+
+                return Ok("Airport successfully deleted!");
+
+            }
+
+            return BadRequest("The user is not authorized or the log insertion went wrong!");
 
         }
 

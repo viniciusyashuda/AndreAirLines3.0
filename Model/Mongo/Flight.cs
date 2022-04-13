@@ -25,7 +25,7 @@ namespace Model
 
         public DateTime ArrivalTime { get; set; }
 
-        public string LoginUser { get; set; }
+        public string UserLogin { get; set; }
 
     }
 }

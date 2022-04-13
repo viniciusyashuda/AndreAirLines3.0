@@ -17,7 +17,7 @@ namespace FlightMicroService.Services
 
             try
             {
-                HttpResponseMessage response = await client.GetAsync("https://localhost:44356/api/User/" + login);
+                HttpResponseMessage response = await client.GetAsync("https://localhost:44356/api/Users/" + login);
                 response.EnsureSuccessStatusCode();
                 string responseBody = await response.Content.ReadAsStringAsync();
 
@@ -28,9 +28,9 @@ namespace FlightMicroService.Services
 
 
             }
-            catch (Exception exception)
+            catch
             {
-                throw new Exception("Exception: " + exception.Message);
+                return null;
             }
 
         }

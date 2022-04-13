@@ -33,7 +33,7 @@ namespace TicketMicroService.Controllers
             if (ticket == null)
             {
 
-                NotFound();
+                return NotFound("Ticket not found!");
 
             }
 
@@ -48,7 +48,7 @@ namespace TicketMicroService.Controllers
             if (await _ticket.Create(ticket) == null)
             {
 
-                return BadRequest("It was not possible to insert because base price, passenger or flight inserted do not exist!");
+                return BadRequest("The user is not authorized, the log insertion went wrong or there is a problem with the base price, flight and/or passenger data!");
 
             }
             
@@ -58,7 +58,7 @@ namespace TicketMicroService.Controllers
 
 
         [HttpPut(("{id:length(24)}"))]
-        public IActionResult Update(string id, Ticket ticket_updated)
+        public async Task<IActionResult> Update(string id, Ticket ticket_updated)
         {
 
             var ticket = _ticket.Get(id);
@@ -66,17 +66,25 @@ namespace TicketMicroService.Controllers
             if (ticket == null)
             {
 
-                NotFound();
+                return NotFound("Ticket not found!");
 
             }
 
-            _ticket.Update(id, ticket_updated);
-            return NoContent();
+
+            if (await _ticket.Update(id, ticket_updated) != null)
+            {
+
+                return Ok("Ticket successfully updated!");
+
+            }
+
+            return BadRequest("The user is not authorized or the log insertion went wrong!");
+
 
         }
 
         [HttpDelete("{id:length(24)}")]
-        public IActionResult Remove(string id)
+        public async Task<IActionResult> Remove(string id, User user)
         {
 
             var ticket = _ticket.Get(id);
@@ -84,12 +92,18 @@ namespace TicketMicroService.Controllers
             if (ticket == null)
             {
 
-                NotFound();
+                return NotFound("Ticket not found!");
 
             }
 
-            _ticket.Remove(id);
-            return NoContent();
+            if (await _ticket.Remove(id, user) != null)
+            {
+
+                return Ok("Ticket successfully removed!");
+
+            }
+
+            return BadRequest("The user is not authorized or the log insertion went wrong!");
 
         }
 

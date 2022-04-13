@@ -32,7 +32,7 @@ namespace FlightMicroService.Controllers
 
             if (flight == null)
             {
-                return NotFound();
+                return NotFound("Flight not found!");
             }
 
             return flight;
@@ -47,7 +47,7 @@ namespace FlightMicroService.Controllers
             if (await _flight.Create(flight) == null)
             {
 
-                return BadRequest("It was not possible to insert because there is somethig wrong in the airports or aircraft data!");
+                return BadRequest("The user is not authorized, the log insertion went wrong or there is a problem with the airports and/or aircraft data!");
                 
             }
 
@@ -55,36 +55,47 @@ namespace FlightMicroService.Controllers
         }
 
         [HttpPut("{id:length(24)}")]
-        public IActionResult Update (string id, Flight flight_updated)
+        public async Task<IActionResult> Update (string id, Flight flight_updated)
         {
 
             var flight = _flight.Get(id);
 
             if (flight == null)
             {
-                return NotFound();
+                return NotFound("Flight not found!");
             }
 
-            _flight.Update(id, flight_updated);
-            return NoContent();
+            if (await _flight.Update(id, flight_updated) != null)
+            {
+
+                return Ok("Flight successfully updated!");
+
+            }
+
+            return BadRequest("The user is not authorized or the log insertion went wrong!");
 
         }
 
         [HttpDelete("{id:length(24)}")]
 
-        public IActionResult Remove(string id)
+        public async Task<IActionResult> Remove(string id, User user)
         {
 
             var flight = _flight.Get(id);
 
             if (flight == null)
             {
-                return NotFound();
+                return NotFound("Flight not found!");
             }
 
-            _flight.Remove(id);
-            return NoContent();
+            if (await _flight.Remove(id, user) != null)
+            {
 
+                return Ok("Flight successfully deleted!");
+
+            }
+
+            return BadRequest("The user is not authorized or the log insertion went wrong!");
         }
 
 

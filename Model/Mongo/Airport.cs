@@ -21,7 +21,7 @@ namespace Model
 
         public virtual Address Address { get; set; }
 
-        public string LoginUser { get; set; }
+        public string UserLogin { get; set; }
 
     }
 }

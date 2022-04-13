@@ -17,7 +17,7 @@ namespace Model
 
         public string Cpf { get; set; }
 
-        public string Passenger_Name { get; set; }
+        public string Name { get; set; }
 
         public string Phone { get; set; }
 

@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using LogMicroService.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -20,18 +21,18 @@ namespace LogMicroService.Controllers
         }
 
         [HttpGet]
-        public ActionResult<List<Log>> Get() =>
-            _log.Get();
+        public async Task<ActionResult<List<Log>>> GetAsync() =>
+            await _log.GetAsync();
 
         [HttpGet("{id:length(24)}", Name = "GetLog")]
-        public ActionResult<Log> Get(string id)
+        public async Task<ActionResult<Log>> GetAsync(string id)
         {
 
-            var log = _log.Get(id);
+            var log = await _log.GetAsync(id);
 
             if (log == null)
             {
-                return NotFound();
+                return NotFound("Log not found!");
             }
 
             return log;
@@ -39,54 +40,20 @@ namespace LogMicroService.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create(Log log)
+        public async Task<IActionResult> Create(Log log)
         {
 
-            if (_log.Create(log) == null)
+            if (await _log.Create(log) == null)
             {
 
-                return BadRequest("Aircraft already exist!");
+                return BadRequest("Log already exist!");
 
             }
 
-            return CreatedAtRoute("GetAircraft", new { id = log.Id.ToString() }, log);
+            return CreatedAtRoute("GetLog", new { id = log.Id.ToString() }, log);
 
         }
 
-        [HttpPut("{id:length(24)}")]
-        public IActionResult Update(string id, Log log_updated)
-        {
-
-            var log = _log.Get(id);
-
-            if (log == null)
-            {
-
-                return NotFound();
-
-            }
-
-            _log.Update(id, log_updated);
-            return NoContent();
-
-        }
-
-        [HttpDelete("{id:length(24)}")]
-        public IActionResult Delete(string id)
-        {
-
-            var log = _log.Get(id);
-
-            if (log == null)
-            {
-
-                return NotFound();
-
-            }
-
-            _log.Remove(id);
-            return NoContent();
-        }
 
     }
 }

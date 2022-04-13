@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using LogMicroService.Config;
 using Model;
 using MongoDB.Driver;
@@ -19,15 +20,15 @@ namespace LogMicroService.Services
 
         }
 
-        public List<Log> Get() =>
-            _log.Find(log => true).ToList();
+        public async Task<List<Log>> GetAsync() =>
+            await _log.Find(log => true).ToListAsync();
 
-        public Log Get(string id) =>
-            _log.Find(log => log.Id == id).FirstOrDefault();
+        public async Task<Log> GetAsync(string id) =>
+            await _log.Find(log => log.Id == id).FirstOrDefaultAsync();
 
-        public Log Create(Log log)
+        public async Task<Log> Create(Log log)
         {
-            var logFound = Get(log.Id);
+            var logFound = await GetAsync(log.Id);
 
             if (logFound == null)
             {
@@ -40,15 +41,6 @@ namespace LogMicroService.Services
             return null;
 
         }
-
-        public void Update(string id, Log log_updated) =>
-            _log.ReplaceOne(log => log.Id == id, log_updated);
-
-        public void Remove(Log logToRemove) =>
-            _log.DeleteOne(log => log.Id == logToRemove.Id);
-
-        public void Remove(string id) =>
-            _log.DeleteOne(log => log.Id == id);
 
     }
 

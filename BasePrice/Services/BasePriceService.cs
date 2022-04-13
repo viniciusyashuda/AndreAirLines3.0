@@ -1,8 +1,10 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using BasePriceMicroService.Config;
 using Model;
 using MongoDB.Driver;
+using Newtonsoft.Json;
 
 namespace BasePriceMicroService.Services
 {
@@ -26,14 +28,38 @@ namespace BasePriceMicroService.Services
         public BasePrice Get(string id) =>
             _baseprice.Find<BasePrice>(base_price => base_price.Id == id).FirstOrDefault();
 
-        public async Task<BasePrice> Create (BasePrice base_price)
+        public async Task<BasePrice> Create(BasePrice base_price)
         {
+
+            if (base_price.UserLogin == null)
+            {
+
+                return null;
+
+            }
+
+            var user = await SearchUser.FindUserAsync(base_price.UserLogin);
+
+            if (user == null)
+            {
+
+                return null;
+
+            }
+            if (user.Role != "Admin")
+            {
+
+                return null;
+
+            }
 
             var base_price_found = Get(base_price.Id);
 
-            if(base_price_found != null)
+            if (base_price_found != null)
             {
+
                 return null;
+
             }
 
             var origin = await SearchAirport.FindAirportAsync(base_price.Origin.Id);
@@ -54,7 +80,7 @@ namespace BasePriceMicroService.Services
 
             }
 
-            if(origin.Id.Equals(destination.Id))
+            if (origin.Id.Equals(destination.Id))
             {
 
                 return null;
@@ -66,18 +92,130 @@ namespace BasePriceMicroService.Services
             base_price.Destination = destination;
 
             _baseprice.InsertOne(base_price);
+
+            Log log = new();
+            log.User = user;
+            log.EntityBefore = "";
+            log.EntityAfter = JsonConvert.SerializeObject(base_price);
+            log.Operation = "create";
+            log.Date = DateTime.Now.Date;
+
+            var check = await InsertLog.InsertLogAsync(log);
+
+            if (check != "Ok")
+            {
+
+                _baseprice.DeleteOne(basepriceIn => basepriceIn.Id == base_price.Id);
+                return null;
+
+            }
+
             return base_price;
 
         }
 
-        public void Update(string id, BasePrice base_price_updated) =>
-            _baseprice.ReplaceOne(base_price => base_price.Id == id, base_price_updated);
+        public async Task<BasePrice> Update(string id, BasePrice base_price_updated)
+        {
+
+            if (base_price_updated.UserLogin == null)
+            {
+
+                return null;
+
+            }
+
+            var user = await SearchUser.FindUserAsync(base_price_updated.UserLogin);
+
+            if (user == null)
+            {
+
+                return null;
+
+            }
+            if (user.Role != "Admin")
+            {
+
+                return null;
+
+            }
+
+            var base_price = Get(id);
+
+            _baseprice.ReplaceOne(basepriceIn => basepriceIn.Id == id, base_price_updated);
+
+            Log log = new();
+            log.User = user;
+            log.EntityBefore = JsonConvert.SerializeObject(base_price);
+            log.EntityAfter = JsonConvert.SerializeObject(base_price_updated);
+            log.Operation = "update";
+            log.Date = DateTime.Now.Date;
+
+            var check = await InsertLog.InsertLogAsync(log);
+
+            if (check != "Ok")
+            {
+
+                _baseprice.ReplaceOne(basepriceIn => basepriceIn.Id == base_price_updated.Id, base_price);
+                return null;
+
+            }
+
+            return base_price_updated;
+
+        }
 
         public void Remove(BasePrice base_priceToRemove) =>
             _baseprice.DeleteOne(base_price => base_price.Id == base_priceToRemove.Id);
 
-        public void Remove(string id) =>
-            _baseprice.DeleteOne(base_price => base_price.Id == id);
+        public async Task<User> Remove(string id, User user)
+        {
+
+            if (user.UserLogin == null)
+            {
+
+                return null;
+
+            }
+
+            user = await SearchUser.FindUserAsync(user.UserLogin);
+
+            if (user == null)
+            {
+
+                return null;
+
+            }
+            if (user.Role != "Admin")
+            {
+
+                return null;
+
+            }
+
+            var base_price = Get(id);
+
+            _baseprice.DeleteOne(basepriceIn => basepriceIn.Id == id);
+
+            Log log = new();
+            log.User = user;
+            log.EntityBefore = JsonConvert.SerializeObject(base_price);
+            log.EntityAfter = "";
+            log.Operation = "delete";
+            log.Date = DateTime.Now.Date;
+
+            var check = await InsertLog.InsertLogAsync(log);
+
+            if (check != "Ok")
+            {
+
+                _baseprice.InsertOne(base_price);
+                return null;
+
+            }
+
+            return user;
+
+        }
 
 
     }

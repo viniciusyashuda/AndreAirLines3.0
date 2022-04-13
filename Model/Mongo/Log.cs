@@ -16,9 +16,9 @@ namespace Model
 
         public User User { get; set; }
 
-        public Object EntityBefore { get; set; }
+        public string EntityBefore { get; set; }
 
-        public Object EntityAfter { get; set; }
+        public string EntityAfter { get; set; }
 
         public string Operation { get; set; }
 

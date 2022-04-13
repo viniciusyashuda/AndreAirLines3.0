@@ -1,7 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 using AircraftMicroService.Config;
+using AircraftMicroService.Services;
 using Model;
 using MongoDB.Driver;
+using Newtonsoft.Json;
 
 namespace AircraftMicroService.Service
 {
@@ -28,8 +32,30 @@ namespace AircraftMicroService.Service
         public Aircraft GetRegistration(string registration) =>
             _aircraft.Find<Aircraft>(aircraft => aircraft.Registration == registration).FirstOrDefault();
 
-        public Aircraft Create(Aircraft aircraft)
+        public async Task<Aircraft> Create(Aircraft aircraft)
         {
+
+            if(aircraft.UserLogin == null)
+            {
+
+                return null;
+
+            }
+
+            var user = await SearchUser.FindUserAsync(aircraft.UserLogin);
+
+            if(user == null)
+            {
+
+                return null;
+
+            }
+            if(user.Role != "Admin")
+            {
+
+                return null;
+
+            }
 
             var aircraftFound = GetRegistration(aircraft.Registration);
 
@@ -37,7 +63,25 @@ namespace AircraftMicroService.Service
             {
 
                 _aircraft.InsertOne(aircraft);
-                return aircraft;
+
+                Log log = new();
+                log.User = user;
+                log.EntityBefore = "";
+                log.EntityAfter = JsonConvert.SerializeObject(aircraft);
+                log.Operation = "create";
+                log.Date = DateTime.Now.Date;
+
+                var check = await InsertLog.InsertLogAsync(log);
+
+                if(check != "Ok")
+                {
+
+                    _aircraft.DeleteOne(aircraftIn => aircraftIn.Id == aircraft.Id);
+                    return null;
+
+                }
+
+                     return aircraft;
 
             }
 
@@ -45,14 +89,108 @@ namespace AircraftMicroService.Service
 
         }
 
-        public void Update(string id, Aircraft aircraft_updated) =>
-            _aircraft.ReplaceOne(aircraft => aircraft.Id == aircraft_updated.Id, aircraft_updated);
+        public async Task<Aircraft> Update(string id, Aircraft aircraft_updated)
+        {
+
+            if (aircraft_updated.UserLogin == null)
+            {
+
+                return null;
+
+            }
+
+            var user = await SearchUser.FindUserAsync(aircraft_updated.UserLogin);
+
+            if (user == null)
+            {
+
+                return null;
+
+            }
+            if (user.Role != "Admin")
+            {
+
+                return null;
+
+            }
+
+            var aircraft = Get(id);
+
+            _aircraft.ReplaceOne(aircraftIn => aircraftIn.Id == id, aircraft_updated);
+
+            Log log = new();
+            log.User = user;
+            log.EntityBefore = JsonConvert.SerializeObject(aircraft);
+            log.EntityAfter = JsonConvert.SerializeObject(aircraft_updated);
+            log.Operation = "update";
+            log.Date = DateTime.Now.Date;
+
+            var check = await InsertLog.InsertLogAsync(log);
+
+            if (check != "Ok")
+            {
+
+                _aircraft.ReplaceOne(aircraftIn => aircraftIn.Id == aircraft_updated.Id, aircraft);
+                return null;
+
+            }
+
+            return aircraft_updated;
+
+        }
 
         public void Remove(Aircraft aircraftToRemove) =>
             _aircraft.DeleteOne(aircraft => aircraft.Id == aircraftToRemove.Id);
 
-        public void Remove(string id) =>
-            _aircraft.DeleteOne(aircraft => aircraft.Id == id);
+        public async Task<User> Remove(string id, User user)
+        {
+
+            if (user.UserLogin == null)
+            {
+
+                return null;
+
+            }
+
+            user = await SearchUser.FindUserAsync(user.UserLogin);
+
+            if (user == null)
+            {
+
+                return null;
+
+            }
+            if (user.Role != "Admin")
+            {
+
+                return null;
+
+            }
+
+            var aircraft = Get(id);
+
+            _aircraft.DeleteOne(aircraftIn => aircraftIn.Id == id);
+
+            Log log = new();
+            log.User = user;
+            log.EntityBefore = JsonConvert.SerializeObject(aircraft);
+            log.EntityAfter = "";
+            log.Operation = "delete";
+            log.Date = DateTime.Now.Date;
+
+            var check = await InsertLog.InsertLogAsync(log);
+
+            if (check != "Ok")
+            {
+
+                _aircraft.InsertOne(aircraft);
+                return null;
+
+            }
+
+            return user;
+
+        }
 
     }
 }

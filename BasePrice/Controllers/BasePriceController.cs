@@ -32,7 +32,7 @@ namespace BasePriceMicroService.Controllers
             if(base_price == null)
             {
 
-                return NotFound();
+                return NotFound("Base price not found!");
 
             }
 
@@ -47,7 +47,7 @@ namespace BasePriceMicroService.Controllers
             if(await _baseprice.Create(base_price) == null)
             {
 
-                return BadRequest("It was not possible to insert because there is something wrong in the airports data!");
+                return BadRequest("The user is not authorized, the log insertion went wrong or there is a problem with the airports data!");
 
             }
 
@@ -56,7 +56,7 @@ namespace BasePriceMicroService.Controllers
         }
 
         [HttpPut("{id:length(24)}")]
-        public IActionResult Update(string id, BasePrice base_price_updated)
+        public async Task<IActionResult> Update(string id, BasePrice base_price_updated)
         {
 
             var base_price = _baseprice.Get(id);
@@ -64,17 +64,23 @@ namespace BasePriceMicroService.Controllers
             if(base_price == null)
             {
 
-                return NotFound();
+                return NotFound("Base price not found!");
 
             }
 
-            _baseprice.Update(id, base_price_updated);
-            return NoContent();
+            if (await _baseprice.Update(id, base_price_updated) != null)
+            {
+
+                return Ok("Base price successfully updated!");
+
+            }
+
+            return BadRequest("The user is not authorized or the log insertion went wrong!");
 
         }
 
         [HttpDelete("{id:length(24)}")]
-        public IActionResult Remove(string id)
+        public async Task<IActionResult> RemoveAsync(string id, User user)
         {
 
             var base_price = _baseprice.Get(id);
@@ -82,12 +88,19 @@ namespace BasePriceMicroService.Controllers
             if(base_price == null)
             {
 
-                return NotFound();
+                return NotFound("Base price not found!");
 
             }
 
-            _baseprice.Remove(id);
-            return NoContent();
+            if (await _baseprice.Remove(id, user) != null)
+            {
+
+                return Ok("Base price successfully deleted!");
+
+            }
+
+            return BadRequest("The user is not authorized or the log insertion went wrong!");
+
         }
     }
 }

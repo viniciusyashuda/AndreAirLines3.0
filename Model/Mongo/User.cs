@@ -14,7 +14,7 @@ namespace Model
 
         public string Password { get; set; }
 
-        public string Sector { get; set; }
+        public string Role { get; set; }
 
         public Occupation Occupation { get; set; }
 
