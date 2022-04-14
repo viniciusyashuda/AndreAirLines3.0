@@ -11,5 +11,10 @@ namespace RobotSQL.Repository
     {
         bool Add(AirportSQL airport);
 
+        List<AirportSQL> GetAll();
+
+        AirportSQL GetById(int id);
+
+        AirportSQL GetByCode(string code);
     }
 }

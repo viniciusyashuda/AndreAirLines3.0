@@ -27,5 +27,29 @@ namespace RobotSQL.Service
 
         }
 
+        public List<AirportSQL> GetAll()
+        {
+
+            return _airport.GetAll();
+
+        }
+
+        public AirportSQL GetById(int id)
+        {
+
+            return _airport.GetById(id);
+
+        }
+
+        public AirportSQL GetByCode(string code)
+        {
+
+            return _airport.GetByCode(code);
+
+        }
+
+
+
+
     }
 }

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Model;
 using PassengerMicroService.Services;
@@ -22,6 +23,37 @@ namespace PassengerMicroService.Controllers
 
         }
 
+        [HttpPost]
+        [Route("login")]
+        [AllowAnonymous]
+        public async Task<ActionResult<dynamic>> Authenticate([FromBody] User model)
+        {
+
+            // Recupera o usuário
+            var user = await SearchUser.FindUserAsync(model.Login);
+
+            // Verifica se o usuário existe
+            if (user == null)
+                return NotFound(new { message = "User or password invalid!" });
+            else if (user.Password != model.Password)
+                return NotFound(new { message = "User or password invalid!" });
+
+
+
+            // Gera o Token
+            var token = TokenService.GenerateToken(user);
+
+            // Oculta a senha
+            user.Password = "";
+
+            // Retorna os dados
+            return new
+            {
+                user = user,
+                token = token
+            };
+        }
+
         [HttpGet]
         public ActionResult<List<Passenger>> Get() =>
             _passenger.Get();
@@ -35,7 +67,7 @@ namespace PassengerMicroService.Controllers
 
             if(passenger == null)
             {
-                return NotFound();
+                return NotFound("Passenger not found!");
             }
 
             return passenger;
@@ -43,7 +75,8 @@ namespace PassengerMicroService.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateAsync(Passenger passenger)
+        [Authorize(Roles = "Admin, User")]
+        public async Task<IActionResult> Create(Passenger passenger)
         {
 
             var address_viacep = await ViaCep.GetAddressViaCep(passenger.Address.PostalCode);
@@ -51,7 +84,7 @@ namespace PassengerMicroService.Controllers
             if (address_viacep != null)
             {
 
-                passenger.Address = new Address(address_viacep.PostalCode, address_viacep.Street, passenger.Address.Number, address_viacep.District, address_viacep.City, passenger.Address.Country, address_viacep.Federative_Unit, passenger.Address.Complement);
+                passenger.Address = new Address(address_viacep.PostalCode, address_viacep.Street, passenger.Address.Number, address_viacep.District, address_viacep.City, passenger.Address.Country, passenger.Address.Continent, address_viacep.Federative_Unit, passenger.Address.Complement);
 
             }
 
@@ -68,7 +101,7 @@ namespace PassengerMicroService.Controllers
             if(_passenger.Create(passenger) == null)
             {
 
-                return BadRequest("Passenger already exist!");
+                return BadRequest("The user is not authorized, the log insertion went wrong or the passenger already exists!");
 
             }
 
@@ -77,7 +110,8 @@ namespace PassengerMicroService.Controllers
         }
 
         [HttpPut("{id:length(24)}")]
-        public IActionResult Update(string id, Passenger passenger_updated)
+        [Authorize(Roles = "Admin, User")]
+        public async Task<IActionResult> Update(string id, Passenger passenger_updated)
         {
 
             var passenger = _passenger.Get(id);
@@ -85,17 +119,48 @@ namespace PassengerMicroService.Controllers
             if(passenger == null)
             {
 
-                return NotFound();
+                return NotFound("Passenger not found!");
 
             }
 
-            _passenger.Update(id, passenger_updated);
-            return NoContent();
+            var address_viacep = await ViaCep.GetAddressViaCep(passenger.Address.PostalCode);
+
+            if (address_viacep != null)
+            {
+
+                passenger.Address = new Address(address_viacep.PostalCode, address_viacep.Street, passenger.Address.Number, address_viacep.District, address_viacep.City, passenger.Address.Country, passenger.Address.Continent, address_viacep.Federative_Unit, passenger.Address.Complement);
+
+            }
+
+            if (!ValidateCPF.CpfValidator(passenger.Cpf))
+            {
+
+                return BadRequest("This CPF is invalid!");
+
+            }
+
+            else if (passenger.Cpf == "00000000000" || passenger.Cpf == "11111111111" || passenger.Cpf == "22222222222" || passenger.Cpf == "33333333333" || passenger.Cpf == "44444444444" || passenger.Cpf == "55555555555" || passenger.Cpf == "66666666666" || passenger.Cpf == "77777777777" || passenger.Cpf == "88888888888" || passenger.Cpf == "99999999999")
+            {
+
+                return BadRequest("This CPF is invalid!");
+
+            }
+
+            if (await _passenger.Update(id, passenger_updated) != null)
+            {
+
+                return Ok("Passenger successfully updated!");
+
+            }
+
+            return BadRequest("The user is not authorized or the log insertion went wrong!");
+
 
         }   
 
         [HttpDelete("{id:length(24)}")]
-        public IActionResult Delete(string id)
+        [Authorize(Roles = "Admin, User")]
+        public async Task<IActionResult> Delete(string id, User user)
         {
 
             var passenger = _passenger.Get(id);
@@ -103,12 +168,19 @@ namespace PassengerMicroService.Controllers
             if(passenger == null)
             {
 
-                return NotFound();
+                return NotFound("Passenger not found!");
 
             }
 
-            _passenger.Remove(passenger);
-            return NoContent();
+            if (await _passenger.Remove(id, user) != null)
+            {
+
+                return Ok("Passenger successfully deleted!");
+
+            }
+
+            return BadRequest("The user is not authorized or the log insertion went wrong!");
+
         }
 
 

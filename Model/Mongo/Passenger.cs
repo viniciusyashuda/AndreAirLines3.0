@@ -8,24 +8,10 @@ using MongoDB.Bson.Serialization.Attributes;
 
 namespace Model
 {
-    public class Passenger
+    public class Passenger : Person
     {
 
-        [BsonId]
-        [BsonRepresentation(BsonType.ObjectId)]
-        public string Id { get; set; } =  ObjectId.GenerateNewId().ToString();
-
-        public string Cpf { get; set; }
-
-        public string Passenger_Name { get; set; }
-
-        public string Phone { get; set; }
-
-        public DateTime BirthDate { get; set; }
-
-        public string Email { get; set; }
-
-        public virtual Address Address { get; set; }
+        public string Passport_Code { get; set; }
 
 
     }

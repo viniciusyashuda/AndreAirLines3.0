@@ -22,5 +22,7 @@ namespace Model
 
         public DateTime InclusionDate { get; set; }
 
+        public string UserLogin { get; set; }
+
     }
 }

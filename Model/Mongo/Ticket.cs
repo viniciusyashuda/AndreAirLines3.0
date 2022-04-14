@@ -29,5 +29,7 @@ namespace Model
 
         public DateTime RegistrationDate { get; set; }
 
+        public string UserLogin { get; set; }
+
     }
 }
