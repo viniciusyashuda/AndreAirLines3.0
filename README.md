@@ -10,7 +10,7 @@
 
 *• Utilização do RabbitMQ para filas de mensageria ✔️* 
 
-*• Testagem com xUnitTest ✔️ *
+*• Testagem com xUnitTest ✔️*
 
 # Observações
 
