@@ -31,9 +31,9 @@ namespace TicketMicroService.Controllers
 
             // Verifica se o usuário existe
             if (user == null)
-                return NotFound(new { message = "User or password invalid!" });
+                return NotFound(new { message = "Invalid user or password!" });
             else if (user.Password != model.Password)
-                return NotFound(new { message = "User or password invalid!" });
+                return NotFound(new { message = "Invalid user or password!" });
 
 
 

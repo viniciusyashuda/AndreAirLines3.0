@@ -20,15 +20,15 @@ namespace LogMicroService.Services
 
         }
 
-        public async Task<List<Log>> GetAsync() =>
+        public async Task<List<Log>> Get() =>
             await _log.Find(log => true).ToListAsync();
 
-        public async Task<Log> GetAsync(string id) =>
+        public async Task<Log> Get(string id) =>
             await _log.Find(log => log.Id == id).FirstOrDefaultAsync();
 
         public async Task<Log> Create(Log log)
         {
-            var logFound = await GetAsync(log.Id);
+            var logFound = await Get(log.Id);
 
             if (logFound == null)
             {
