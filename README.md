@@ -1,16 +1,16 @@
 # AndreAirLines3.0
 
-*• Projeto Andre AirLines com Micro Serviços ✔️ 
+*• Projeto Andre AirLines com Micro Serviços ✔️* 
 
-• Bancos de dados utilizados: SQL Server e MongoDB ✔️ 
+*• Bancos de dados utilizados: SQL Server e MongoDB ✔️* 
 
-• Comparação de performance de busca Entity Framework x Dapper ✔️ 
+*• Comparação de performance de busca Entity Framework x Dapper ✔️* 
 
-• Utilização de JWT para autenticação ✔️ 
+*• Utilização de JWT para autenticação ✔️* 
 
-• Utilização do RabbitMQ para filas de mensageria ✔️ 
+*• Utilização do RabbitMQ para filas de mensageria ✔️* 
 
-• Testagem com xUnitTest ✔️ *
+*• Testagem com xUnitTest ✔️ *
 
 # Observações
 
